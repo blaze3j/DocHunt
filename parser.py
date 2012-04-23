@@ -1,15 +1,29 @@
 from BeautifulSoup import BeautifulSoup
-import urllib
-
-f = urllib.urlopen("http://aspectwerkz.codehaus.org/apidocs/org/codehaus/aspectwerkz/aspect/AbstractAspectContainer.html")
-html = f.read()
-soup = BeautifulSoup(''.join(html))
+import urllib,sys
+if (len(sys.argv) != 2):
+ sys.exit("Must provide file list")
+else:
+ doc = open(sys.argv[1], 'r')
+ for line in doc:
+   #"http://aspectwerkz.codehaus.org/apidocs/org/codehaus/aspectwerkz/aspect/AbstractAspectContainer.html"
+   f = urllib.urlopen(line)
+   html = f.read()
+   soup = BeautifulSoup(''.join(html))
  
-tables = soup.findAll('table', border="1")
-fields = []
-methods = []
-cons = []
-for table in tables:
+   tables = soup.findAll('table', border="1")
+   #fields = []
+   #methods = []
+   #cons = []
+   lastDoc = line.rfind(".")
+   lastSlash = line.rfind("/")
+   className =""
+   #get the className to create xml file that has the className
+   if lastSlash != -1:
+     className = line[lastSlash+1:lastDoc]
+   else:
+     className = line[0:lastDoc]
+   xmlFile = open(className+ '.xml', 'w+')
+   for table in tables:
 	isField = False
 	isMethod = False
 	isCons = False
@@ -35,12 +49,15 @@ for table in tables:
 					name=link[beforeSig+1:]
      					#name=texts.find(text=True)
      					if count >0 and isField:
-						fields.append(name)
+						#fields.append(name)
+						xmlFile.write("<cfield>" + name + "</cfield>\n") 
      						print "Field:" + name
 					elif count > 0 and isMethod:
-						methods.append(name)
+						#methods.append(name)
+						xmlFile.write("<cmethod>" +  name + "</cmethod>\n")
 						print "Method:" + name
 					elif isCons:
-						cons.append(name)
+						#cons.append(name)
+						xmlFile.write("<ccons>" + name + "</ccons>\n")
 						print "Cons:" + name
 			count+=1
