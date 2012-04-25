@@ -5,8 +5,18 @@ if (len(sys.argv) != 2):
 else:
  doc = open(sys.argv[1], 'r')
  for line in doc:
-   #"http://aspectwerkz.codehaus.org/apidocs/org/codehaus/aspectwerkz/aspect/AbstractAspectContainer.html"
-   f = urllib.urlopen(line)
+   #for handling raw url like: 
+   #http://aspectwerkz.codehaus.org/apidocs/org/codehaus/aspectwerkz/aspect/AbstractAspectContainer.html
+   if line.startswith("http"):
+   	f = urllib.urlopen(line)
+   #for the case where the html files are downloaded
+   else:
+	if line.startswith("./"):
+		line = line[2:len(line)]
+	if line.endswith("\n"):
+		line = line[0:len(line)-1]
+	f = open(line,'r')
+   
    html = f.read()
    soup = BeautifulSoup(''.join(html))
  
