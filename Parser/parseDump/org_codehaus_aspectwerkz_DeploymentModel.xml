@@ -1,0 +1,11 @@
+<cmethod>equals(java.lang.Object)</cmethod>
+<cfield>PER_THIS</cfield>
+<cfield>PER_CFLOWBELOW</cfield>
+<cfield>PER_INSTANCE</cfield>
+<cfield>PER_TARGET</cfield>
+<cfield>PER_CFLOW</cfield>
+<cmethod>hashCode()</cmethod>
+<cmethod>getDeploymentModelFor(java.lang.String)</cmethod>
+<cmethod>toString()</cmethod>
+<cfield>PER_CLASS</cfield>
+<cfield>PER_JVM</cfield>

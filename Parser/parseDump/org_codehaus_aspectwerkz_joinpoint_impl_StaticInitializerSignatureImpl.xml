@@ -1,0 +1,4 @@
+<cmethod>getModifiers()</cmethod>
+<cmethod>getDeclaringType()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>toString()</cmethod>

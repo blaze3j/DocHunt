@@ -1,0 +1,9 @@
+<cfield>AFTER_THROWING</cfield>
+<cfield>AROUND</cfield>
+<cfield>AFTER</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cfield>AFTER_FINALLY</cfield>
+<cfield>AFTER_RETURNING</cfield>
+<cfield>BEFORE</cfield>

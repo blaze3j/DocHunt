@@ -1,0 +1,4 @@
+<cmethod>inCflow()</cmethod>
+<cmethod>exit()</cmethod>
+<cmethod>enter()</cmethod>
+<cfield>m_cflowStackLocal</cfield>

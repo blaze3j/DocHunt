@@ -1,0 +1,6 @@
+<cmethod>getName()</cmethod>
+<cmethod>getThis()</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cmethod>getDeclaringType()</cmethod>
+<cmethod>getTarget()</cmethod>
+<cmethod>cloneFor(java.lang.Object, java.lang.Object)</cmethod>

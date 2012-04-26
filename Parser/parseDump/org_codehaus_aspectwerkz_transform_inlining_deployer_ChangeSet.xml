@@ -1,0 +1,2 @@
+<cmethod>addElement(org.codehaus.aspectwerkz.transform.inlining.deployer.ChangeSet.Element)</cmethod>
+<cmethod>getElements()</cmethod>

@@ -1,0 +1,4 @@
+<cmethod>setHeight(double)</cmethod>
+<cmethod>isVisible()</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>getHeight()</cmethod>

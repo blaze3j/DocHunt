@@ -1,0 +1,7 @@
+<cmethod>getInitialModel()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getRedefinedModel()</cmethod>
+<cmethod>setRedefinedModel(org.codehaus.aspectwerkz.transform.inlining.compiler.CompilationInfo.Model)</cmethod>
+<cmethod>incrementRedefinitionCounter()</cmethod>
+<cmethod>getRedefinitionCounter()</cmethod>

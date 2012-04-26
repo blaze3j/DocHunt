@@ -1,0 +1,6 @@
+<cmethod>setTitle(java.lang.String)</cmethod>
+<cmethod>getMenu()</cmethod>
+<cfield>PROPERTY_TITLE</cfield>
+<cfield>PROPERTY_MENU</cfield>
+<cmethod>getTitle()</cmethod>
+<cmethod>setMenu(thinwire.ui.Menu)</cmethod>

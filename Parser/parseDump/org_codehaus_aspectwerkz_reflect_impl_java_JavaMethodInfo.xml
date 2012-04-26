@@ -1,0 +1,10 @@
+<cmethod>getExceptionTypes()</cmethod>
+<cmethod>getParameterNames()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cmethod>getMethodInfo(java.lang.reflect.Method)</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getReturnType()</cmethod>
+<cmethod>getAnnotations()</cmethod>

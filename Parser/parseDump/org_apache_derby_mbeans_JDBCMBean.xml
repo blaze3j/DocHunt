@@ -1,0 +1,5 @@
+<cmethod>getDriverLevel()</cmethod>
+<cmethod>acceptsURL(java.lang.String)</cmethod>
+<cmethod>isCompliantDriver()</cmethod>
+<cmethod>getMinorVersion()</cmethod>
+<cmethod>getMajorVersion()</cmethod>

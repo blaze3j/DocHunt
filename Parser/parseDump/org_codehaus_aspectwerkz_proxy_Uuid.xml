@@ -1,0 +1,7 @@
+<cmethod>newUuid()</cmethod>
+<cfield>UUID_WILD</cfield>
+<cfield>UUID_NONE</cfield>
+<cfield>UUID_MAGIC</cfield>
+<cmethod>isValid(long)</cmethod>
+<cfield>UUID_MAGICMASK</cfield>
+<cfield>lastTime</cfield>

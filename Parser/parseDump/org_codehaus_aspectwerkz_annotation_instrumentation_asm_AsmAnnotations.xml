@@ -1,0 +1,8 @@
+<cmethod>getAnnotations(java.lang.String, org.codehaus.aspectwerkz.reflect.MethodInfo)</cmethod>
+<cmethod>getAnnotation(java.lang.String, org.codehaus.aspectwerkz.reflect.MethodInfo)</cmethod>
+<cmethod>getAnnotation(java.lang.String, org.codehaus.aspectwerkz.reflect.ConstructorInfo)</cmethod>
+<cmethod>getAnnotations(java.lang.String, org.codehaus.aspectwerkz.reflect.FieldInfo)</cmethod>
+<cmethod>getAnnotations(java.lang.String, org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>getAnnotation(java.lang.String, org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>getAnnotation(java.lang.String, org.codehaus.aspectwerkz.reflect.FieldInfo)</cmethod>
+<cmethod>getAnnotations(java.lang.String, org.codehaus.aspectwerkz.reflect.ConstructorInfo)</cmethod>

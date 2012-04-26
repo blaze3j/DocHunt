@@ -1,0 +1,21 @@
+<cmethod>writeItems(java.util.Collection, java.io.DataOutputStream, boolean)</cmethod>
+<cmethod>calculateSerialVersionUID(java.lang.Class)</cmethod>
+<cmethod>computeSVUID()</cmethod>
+<cmethod>visitEnd()</cmethod>
+<cfield>CLINIT</cfield>
+<cfield>m_access</cfield>
+<cfield>m_svuidFields</cfield>
+<cfield>m_computeSVUID</cfield>
+<cmethod>visitField(int, java.lang.String, java.lang.String, java.lang.Object, org.objectweb.asm.Attribute)</cmethod>
+<cmethod>mayNeedSerialVersionUid(int)</cmethod>
+<cmethod>visitMethod(int, java.lang.String, java.lang.String, java.lang.String[], org.objectweb.asm.Attribute)</cmethod>
+<cfield>m_SVUID</cfield>
+<cfield>m_hadSVUID</cfield>
+<cfield>INIT</cfield>
+<cfield>m_interfaces</cfield>
+<cfield>m_svuidMethods</cfield>
+<cfield>m_svuidConstructors</cfield>
+<cfield>m_hasStaticInitializer</cfield>
+<cfield>m_className</cfield>
+<cmethod>visit(int, int, java.lang.String, java.lang.String, java.lang.String[], java.lang.String)</cmethod>
+<cfield>SVUID_NAME</cfield>

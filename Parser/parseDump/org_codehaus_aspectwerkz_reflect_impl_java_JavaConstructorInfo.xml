@@ -1,0 +1,7 @@
+<cmethod>getExceptionTypes()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>getConstructorInfo(java.lang.reflect.Constructor)</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getAnnotations()</cmethod>

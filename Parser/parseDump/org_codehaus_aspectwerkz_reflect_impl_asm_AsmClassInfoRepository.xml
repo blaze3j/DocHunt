@@ -1,0 +1,8 @@
+<cmethod>addClassInfo(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>getAnnotationProperties()</cmethod>
+<cmethod>checkParentClassRepository(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>getRepository(java.lang.ClassLoader)</cmethod>
+<cmethod>removeClassInfoFromAllClassLoaders(java.lang.String)</cmethod>
+<cmethod>hasClassInfo(java.lang.String)</cmethod>
+<cmethod>getClassInfo(java.lang.String)</cmethod>
+<cmethod>removeClassInfo(java.lang.String)</cmethod>

@@ -1,0 +1,45 @@
+<cfield>SHORT</cfield>
+<cmethod>defineClass(java.lang.ClassLoader, byte[], java.lang.String)</cmethod>
+<cmethod>getRegisterDepth(org.objectweb.asm.Type[])</cmethod>
+<cmethod>convertArrayTypeName(java.lang.String)</cmethod>
+<cfield>VOID</cfield>
+<cfield>CHARACTER</cfield>
+<cmethod>convertTypeDescToReflectDesc(java.lang.String)</cmethod>
+<cmethod>getClassDescriptor(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>calculateFieldHash(java.lang.String, java.lang.String)</cmethod>
+<cmethod>storeType(org.objectweb.asm.CodeVisitor, int, org.objectweb.asm.Type)</cmethod>
+<cmethod>dumpClass(java.lang.String, java.lang.String, byte[])</cmethod>
+<cmethod>getConstructorDescriptor(org.codehaus.aspectwerkz.reflect.ConstructorInfo)</cmethod>
+<cfield>IS_JAVA_5</cfield>
+<cmethod>loadArgumentTypes(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type[], boolean)</cmethod>
+<cmethod>unwrapType(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type)</cmethod>
+<cmethod>addDefaultValue(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type)</cmethod>
+<cmethod>prepareWrappingOfPrimitiveType(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type)</cmethod>
+<cfield>LONG</cfield>
+<cmethod>getType(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>addReturnStatement(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type)</cmethod>
+<cmethod>addNullableString(org.objectweb.asm.CodeVisitor, java.lang.String)</cmethod>
+<cfield>INTEGER</cfield>
+<cmethod>getArgumentTypes(org.codehaus.aspectwerkz.reflect.MethodInfo)</cmethod>
+<cmethod>loadType(org.objectweb.asm.CodeVisitor, int, org.objectweb.asm.Type)</cmethod>
+<cmethod>getMethodDescriptor(org.codehaus.aspectwerkz.reflect.MethodInfo)</cmethod>
+<cmethod>getTypeIndexOf(org.objectweb.asm.Type[], int)</cmethod>
+<cmethod>isPrimitive(org.objectweb.asm.Type)</cmethod>
+<cmethod>calculateConstructorHash(java.lang.String)</cmethod>
+<cmethod>newClassWriter(boolean)</cmethod>
+<cmethod>getFieldDescriptor(org.codehaus.aspectwerkz.reflect.FieldInfo)</cmethod>
+<cmethod>incrementIndex(int, org.objectweb.asm.Type)</cmethod>
+<cmethod>loadIntegerConstant(org.objectweb.asm.CodeVisitor, int)</cmethod>
+<cmethod>convertReflectDescToTypeDesc(java.lang.String)</cmethod>
+<cmethod>calculateClassHash(java.lang.String)</cmethod>
+<cfield>BYTE</cfield>
+<cmethod>getRegisterIndexOf(org.objectweb.asm.Type[], int)</cmethod>
+<cmethod>forName(java.lang.ClassLoader, java.lang.String)</cmethod>
+<cfield>DOUBLE</cfield>
+<cfield>FLOAT</cfield>
+<cmethod>wrapPrimitiveType(org.objectweb.asm.CodeVisitor, org.objectweb.asm.Type)</cmethod>
+<cfield>BOOLEAN</cfield>
+<cfield>JAVA_VERSION</cfield>
+<cmethod>dumpClass(java.lang.String, java.lang.String, org.objectweb.asm.ClassWriter)</cmethod>
+<cmethod>calculateMethodHash(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getArgumentTypes(java.lang.reflect.Constructor)</cmethod>

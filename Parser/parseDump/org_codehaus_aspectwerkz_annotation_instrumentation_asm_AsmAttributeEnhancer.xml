@@ -1,0 +1,8 @@
+<cmethod>insertFieldAttribute(com.thoughtworks.qdox.model.JavaField, java.lang.Object)</cmethod>
+<cmethod>write(java.lang.String)</cmethod>
+<cmethod>insertConstructorAttribute(com.thoughtworks.qdox.model.JavaMethod, java.lang.Object)</cmethod>
+<cmethod>getNearestInterfacesInHierarchy(java.lang.String)</cmethod>
+<cmethod>insertClassAttribute(java.lang.Object)</cmethod>
+<cmethod>serialize(java.lang.Object)</cmethod>
+<cmethod>insertMethodAttribute(com.thoughtworks.qdox.model.JavaMethod, java.lang.Object)</cmethod>
+<cmethod>initialize(java.lang.String, java.net.URL[])</cmethod>

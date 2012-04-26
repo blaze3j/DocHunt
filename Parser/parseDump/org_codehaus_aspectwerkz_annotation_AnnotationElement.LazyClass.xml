@@ -1,0 +1,3 @@
+<cfield>className</cfield>
+<cmethod>resolveFrom(java.lang.ClassLoader)</cmethod>
+<cmethod>toString()</cmethod>

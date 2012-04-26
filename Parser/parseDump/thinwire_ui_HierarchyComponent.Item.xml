@@ -1,0 +1,15 @@
+<cmethod>setText(java.lang.String)</cmethod>
+<cmethod>setUserObject(java.lang.Object)</cmethod>
+<cmethod>getParent()</cmethod>
+<cfield>PROPERTY_ITEM_USER_OBJECT</cfield>
+<cmethod>hasChildren()</cmethod>
+<cmethod>getUserObject()</cmethod>
+<cmethod>getImageInfo()</cmethod>
+<cmethod>getChildren()</cmethod>
+<cmethod>getImage()</cmethod>
+<cfield>PROPERTY_ITEM_TEXT</cfield>
+<cmethod>getHierarchy()</cmethod>
+<cmethod>getIndex()</cmethod>
+<cmethod>setImage(java.lang.String)</cmethod>
+<cmethod>getText()</cmethod>
+<cfield>PROPERTY_ITEM_IMAGE</cfield>

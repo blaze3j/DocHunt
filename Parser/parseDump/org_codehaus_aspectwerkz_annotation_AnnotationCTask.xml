@@ -1,0 +1,15 @@
+<cmethod>setClasspathRef(org.apache.tools.ant.types.Reference)</cmethod>
+<cmethod>setCopytodest(java.lang.String)</cmethod>
+<cmethod>setVerbose(boolean)</cmethod>
+<cmethod>createSrc()</cmethod>
+<cmethod>setSourcepath(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>createClasspath()</cmethod>
+<cmethod>setDestdir(java.io.File)</cmethod>
+<cmethod>setProperties(java.io.File)</cmethod>
+<cmethod>execute()</cmethod>
+<cmethod>setClasspath(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>createProperties()</cmethod>
+<cmethod>addFileset(org.apache.tools.ant.types.FileSet)</cmethod>
+<cmethod>setSrcdir(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>createSourcepath()</cmethod>
+<cmethod>setSourcepathRef(org.apache.tools.ant.types.Reference)</cmethod>

@@ -1,0 +1,7 @@
+<cmethod>getPropertyName()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getNewValue()</cmethod>
+<cmethod>getOldValue()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getSourceComponent()</cmethod>

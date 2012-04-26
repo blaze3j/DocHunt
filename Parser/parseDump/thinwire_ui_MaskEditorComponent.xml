@@ -1,0 +1,6 @@
+<cmethod>getEditMask()</cmethod>
+<cfield>PROPERTY_FORMAT_TEXT</cfield>
+<cfield>PROPERTY_EDIT_MASK</cfield>
+<cmethod>setEditMask(java.lang.String)</cmethod>
+<cmethod>setFormatText(boolean)</cmethod>
+<cmethod>isFormatText()</cmethod>

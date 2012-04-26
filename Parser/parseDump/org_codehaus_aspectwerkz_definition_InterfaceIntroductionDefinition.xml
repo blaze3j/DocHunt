@@ -1,0 +1,12 @@
+<cfield>m_expressionInfos</cfield>
+<cmethod>getExpressionInfos()</cmethod>
+<cmethod>addExpressionInfo(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>getInterfaceClassName()</cmethod>
+<cmethod>getAttribute()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>addExpressionInfos(org.codehaus.aspectwerkz.expression.ExpressionInfo[])</cmethod>
+<cmethod>getInterfaceClassNames()</cmethod>
+<cfield>m_attribute</cfield>
+<cfield>m_interfaceClassNames</cfield>
+<cmethod>setAttribute(java.lang.String)</cmethod>
+<cfield>m_name</cfield>

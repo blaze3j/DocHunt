@@ -1,0 +1,77 @@
+<cmethod>setLimit(java.lang.Object)</cmethod>
+<cmethod>getWidth()</cmethod>
+<cfield>PROPERTY_WAIT_FOR_WINDOW</cfield>
+<cmethod>setResizeAllowed(boolean)</cmethod>
+<cmethod>getLimit()</cmethod>
+<cfield>PROPERTY_MODAL</cfield>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, boolean, boolean)</cmethod>
+<cmethod>getComponentWithFocus()</cmethod>
+<cmethod>isFocus()</cmethod>
+<cmethod>setWidth(int)</cmethod>
+<cmethod>addKeyPressListener(java.lang.String[], thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component, java.lang.Object)</cmethod>
+<cfield>PROPERTY_REPOSITION_ALLOWED</cfield>
+<cmethod>addDropListener(thinwire.ui.Component[], thinwire.ui.event.DropListener)</cmethod>
+<cmethod>fireKeyPress(java.lang.String)</cmethod>
+<cmethod>isFocusCapable()</cmethod>
+<cmethod>getX()</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String, thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>setUserObject(java.lang.Object)</cmethod>
+<cmethod>setY(int)</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component)</cmethod>
+<cmethod>setTitle(java.lang.String)</cmethod>
+<cmethod>fireAction(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>removeKeyPressListener(thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireAction(java.lang.String)</cmethod>
+<cmethod>removeItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cmethod>getScrollType()</cmethod>
+<cmethod>setMenu(thinwire.ui.Menu)</cmethod>
+<cmethod>setHeight(int)</cmethod>
+<cmethod>getStyle()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, int, int)</cmethod>
+<cmethod>setFocus(boolean)</cmethod>
+<cmethod>getTitle()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>addItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cfield>PROPERTY_RESIZE_ALLOWED</cfield>
+<cmethod>addDropListener(thinwire.ui.Component, thinwire.ui.event.DropListener)</cmethod>
+<cmethod>isResizeAllowed()</cmethod>
+<cmethod>fireAction(thinwire.ui.event.ActionEvent)</cmethod>
+<cmethod>setLayout(thinwire.ui.layout.Layout)</cmethod>
+<cmethod>getMenu()</cmethod>
+<cmethod>setSize(int, int)</cmethod>
+<cmethod>fireDrop(thinwire.ui.event.DropEvent)</cmethod>
+<cmethod>getContainer()</cmethod>
+<cmethod>setX(int)</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>getUserObject()</cmethod>
+<cmethod>getChildWithFocus()</cmethod>
+<cmethod>setScrollType(thinwire.ui.Container.ScrollType)</cmethod>
+<cmethod>getChildren()</cmethod>
+<cmethod>removeDropListener(thinwire.ui.event.DropListener)</cmethod>
+<cmethod>isVisible()</cmethod>
+<cmethod>addKeyPressListener(java.lang.String, thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>getInnerWidth()</cmethod>
+<cmethod>setBounds(int, int, int, int)</cmethod>
+<cmethod>setWaitForWindow(boolean)</cmethod>
+<cmethod>setModal(boolean)</cmethod>
+<cmethod>isRepositionAllowed()</cmethod>
+<cmethod>removePropertyChangeListener(thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>getInnerHeight()</cmethod>
+<cmethod>isEnabled()</cmethod>
+<cmethod>setRepositionAllowed(boolean)</cmethod>
+<cmethod>addActionListener(java.lang.String[], thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>addActionListener(java.lang.String, thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>setEnabled(boolean)</cmethod>
+<cmethod>fireKeyPress(thinwire.ui.event.KeyPressEvent)</cmethod>
+<cmethod>isModal()</cmethod>
+<cmethod>setFocusCapable(boolean)</cmethod>
+<cmethod>isWaitForWindow()</cmethod>
+<cmethod>setPosition(int, int)</cmethod>
+<cmethod>getLabel()</cmethod>
+<cmethod>getHeight()</cmethod>
+<cmethod>removeActionListener(thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>getLayout()</cmethod>
+<cmethod>getY()</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String[], thinwire.ui.event.PropertyChangeListener)</cmethod>

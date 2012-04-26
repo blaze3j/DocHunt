@@ -1,0 +1,22 @@
+<cmethod>closeCurrent()</cmethod>
+<cmethod>getIcon()</cmethod>
+<cmethod>show(java.lang.String, java.lang.String)</cmethod>
+<cmethod>setTitle(java.lang.String)</cmethod>
+<cmethod>confirm(java.lang.String, java.lang.String, thinwire.ui.Component, java.lang.String)</cmethod>
+<cmethod>getComponent()</cmethod>
+<cmethod>show(java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>getTitle()</cmethod>
+<cmethod>getText()</cmethod>
+<cmethod>setIcon(java.lang.String)</cmethod>
+<cmethod>setComponent(thinwire.ui.Component)</cmethod>
+<cmethod>show(java.lang.String)</cmethod>
+<cmethod>confirm(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>show()</cmethod>
+<cmethod>confirm(java.lang.String, java.lang.String)</cmethod>
+<cmethod>confirm(java.lang.String)</cmethod>
+<cmethod>close()</cmethod>
+<cmethod>setText(java.lang.String)</cmethod>
+<cmethod>setButtons(java.lang.String)</cmethod>
+<cmethod>confirm(java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>getButtons()</cmethod>
+<cmethod>confirm()</cmethod>

@@ -1,0 +1,15 @@
+<cmethod>getInitialBytecode()</cmethod>
+<cmethod>markAsAdvised()</cmethod>
+<cmethod>getClassName()</cmethod>
+<cmethod>resolveLineNumberInfo(org.objectweb.asm.Label)</cmethod>
+<cmethod>markAsReadOnly()</cmethod>
+<cmethod>getMetaData(java.lang.Object)</cmethod>
+<cmethod>setCurrentBytecode(byte[])</cmethod>
+<cmethod>dump(java.lang.String)</cmethod>
+<cmethod>isAdvised()</cmethod>
+<cmethod>isReadOnly()</cmethod>
+<cmethod>addMetaData(java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>getDefinitions()</cmethod>
+<cmethod>resetAdvised()</cmethod>
+<cmethod>getCurrentBytecode()</cmethod>
+<cmethod>getLoader()</cmethod>

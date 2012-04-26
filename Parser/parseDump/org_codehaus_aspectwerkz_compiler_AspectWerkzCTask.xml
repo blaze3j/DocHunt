@@ -1,0 +1,17 @@
+<cmethod>setTargetpathRef(org.apache.tools.ant.types.Reference)</cmethod>
+<cmethod>setTargetdir(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>setClasspathRef(org.apache.tools.ant.types.Reference)</cmethod>
+<cmethod>createTarget()</cmethod>
+<cmethod>setPreprocessor(java.lang.String)</cmethod>
+<cmethod>setTaskVerbose(boolean)</cmethod>
+<cmethod>setVerbose(boolean)</cmethod>
+<cmethod>setDefinition(java.io.File)</cmethod>
+<cmethod>createClasspath()</cmethod>
+<cmethod>setBackupdir(java.io.File)</cmethod>
+<cmethod>setTargetpath(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>execute()</cmethod>
+<cmethod>setClasspath(org.apache.tools.ant.types.Path)</cmethod>
+<cmethod>setDetails(boolean)</cmethod>
+<cmethod>createTargetpath()</cmethod>
+<cmethod>setGenjp(boolean)</cmethod>
+<cmethod>setAspectModels(java.lang.String)</cmethod>

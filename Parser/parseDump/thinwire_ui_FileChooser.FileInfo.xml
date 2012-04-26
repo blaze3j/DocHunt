@@ -1,0 +1,8 @@
+<cmethod>saveToFile(java.io.File)</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>setDescription(java.lang.String)</cmethod>
+<cmethod>getInputStream()</cmethod>
+<cmethod>saveToFile(java.lang.String)</cmethod>
+<cmethod>getDescription()</cmethod>
+<cmethod>setInputStream(java.io.InputStream)</cmethod>

@@ -1,0 +1,2 @@
+<cmethod>classFilter(org.codehaus.aspectwerkz.reflect.ClassInfo, org.codehaus.aspectwerkz.expression.ExpressionContext, java.util.Set)</cmethod>
+<cmethod>visit(int, int, java.lang.String, java.lang.String, java.lang.String[], java.lang.String)</cmethod>

@@ -1,0 +1,4 @@
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>getBoundedType(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>setIdentifier(java.lang.String)</cmethod>
+<cmethod>getIdentifier()</cmethod>

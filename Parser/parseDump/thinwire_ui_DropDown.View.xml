@@ -1,0 +1,6 @@
+<cmethod>setComponent(T)</cmethod>
+<cmethod>getDropDown()</cmethod>
+<cmethod>getOptimalWidth()</cmethod>
+<cmethod>setValue(java.lang.Object)</cmethod>
+<cmethod>getValue()</cmethod>
+<cmethod>getOptimalHeight()</cmethod>

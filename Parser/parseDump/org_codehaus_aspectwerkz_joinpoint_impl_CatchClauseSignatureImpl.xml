@@ -1,0 +1,6 @@
+<cmethod>getParameterType()</cmethod>
+<cmethod>newInstance()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cmethod>getDeclaringType()</cmethod>
+<cmethod>toString()</cmethod>

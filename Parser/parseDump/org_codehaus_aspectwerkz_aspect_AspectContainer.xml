@@ -1,0 +1,5 @@
+<cmethod>aspectOf()</cmethod>
+<cmethod>aspectOf(java.lang.Thread)</cmethod>
+<cmethod>aspectOf(java.lang.Object)</cmethod>
+<cmethod>getContext()</cmethod>
+<cmethod>aspectOf(java.lang.Class)</cmethod>

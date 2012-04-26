@@ -1,0 +1,15 @@
+<cmethod>getThis()</cmethod>
+<cmethod>getExceptionTypes()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getParameterValues()</cmethod>
+<cmethod>setParameterValues(java.lang.Object[])</cmethod>
+<cmethod>getReturnValue()</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cmethod>getDeclaringType()</cmethod>
+<cmethod>cloneFor(java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getReturnType()</cmethod>
+<cmethod>setReturnValue(java.lang.Object)</cmethod>
+<cmethod>getTarget()</cmethod>
+<cmethod>getMethod()</cmethod>

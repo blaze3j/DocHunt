@@ -1,0 +1,5 @@
+<cmethod>compileNamePattern(java.lang.String)</cmethod>
+<cfield>REGULAR_WILDCARD</cfield>
+<cfield>ABBREVIATIONS</cfield>
+<cmethod>compileTypePattern(java.lang.String, org.codehaus.aspectwerkz.expression.SubtypePatternType)</cmethod>
+<cfield>EAGER_WILDCARD</cfield>

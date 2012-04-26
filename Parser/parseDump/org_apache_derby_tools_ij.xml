@@ -1,0 +1,6 @@
+<cmethod>runScript(java.sql.Connection, java.io.InputStream, java.lang.String, java.io.OutputStream, java.lang.String)</cmethod>
+<cmethod>getPropertyArg(java.lang.String[])</cmethod>
+<cmethod>getArg(java.lang.String, java.lang.String[])</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>runScript(java.sql.Connection, java.io.InputStream, java.lang.String, java.io.OutputStream, java.lang.String, boolean)</cmethod>
+<cmethod>startJBMS()</cmethod>

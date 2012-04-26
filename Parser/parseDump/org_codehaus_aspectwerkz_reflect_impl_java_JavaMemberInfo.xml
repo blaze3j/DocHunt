@@ -1,0 +1,7 @@
+<cfield>m_classInfoRepository</cfield>
+<cfield>m_member</cfield>
+<cmethod>getName()</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cfield>m_annotations</cfield>
+<cmethod>getDeclaringType()</cmethod>
+<cfield>m_declaringType</cfield>

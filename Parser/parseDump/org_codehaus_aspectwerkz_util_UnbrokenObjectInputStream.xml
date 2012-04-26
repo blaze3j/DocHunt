@@ -1,0 +1,2 @@
+<cmethod>resolveProxyClass(java.lang.String[])</cmethod>
+<cmethod>resolveClass(java.io.ObjectStreamClass)</cmethod>

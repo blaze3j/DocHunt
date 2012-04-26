@@ -1,0 +1,6 @@
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getThisClassInfo()</cmethod>
+<cmethod>getAdviceInfoContainer()</cmethod>
+<cmethod>getJoinPointClassName()</cmethod>
+<cmethod>getEmittedJoinPoint()</cmethod>

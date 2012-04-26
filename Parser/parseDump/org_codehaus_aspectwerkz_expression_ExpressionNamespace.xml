@@ -1,0 +1,7 @@
+<cmethod>getExpressionInfo(java.lang.String)</cmethod>
+<cmethod>getExpressionInfoOrNull(java.lang.String)</cmethod>
+<cmethod>getNamespace(java.lang.String)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getExpression(java.lang.String)</cmethod>
+<cmethod>addExpressionInfo(java.lang.String, org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>getAdvisedClassExpression(java.lang.String)</cmethod>

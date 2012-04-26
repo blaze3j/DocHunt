@@ -1,0 +1,3 @@
+<cmethod>compileProxyFor(java.lang.ClassLoader, java.lang.String, java.lang.String)</cmethod>
+<cmethod>compileProxyFor(java.lang.Class, java.lang.String)</cmethod>
+<cmethod>getProxyResourceAsStream(java.lang.ClassLoader, java.lang.String)</cmethod>

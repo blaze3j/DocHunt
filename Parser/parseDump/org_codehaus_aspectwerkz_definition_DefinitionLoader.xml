@@ -1,0 +1,4 @@
+<cfield>DEFAULT_SYSTEM</cfield>
+<cfield>DEFAULT_DEFINITION_FILE_NAME</cfield>
+<cfield>DEFINITION_FILE</cfield>
+<cmethod>getDefaultDefinition(java.lang.ClassLoader)</cmethod>

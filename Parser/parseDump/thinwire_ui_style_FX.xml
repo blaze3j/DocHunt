@@ -1,0 +1,23 @@
+<cmethod>setVisibleChange(thinwire.ui.style.Effect.Motion)</cmethod>
+<cmethod>setSizeChange(thinwire.ui.style.Effect.Motion)</cmethod>
+<cfield>PROPERTY_FX_SIZE_CHANGE</cfield>
+<cmethod>setColorChange(thinwire.ui.style.Effect.Motion)</cmethod>
+<cmethod>setProperty(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>getOpacityChange()</cmethod>
+<cmethod>copy(thinwire.ui.style.FX)</cmethod>
+<cmethod>getColorChange()</cmethod>
+<cfield>PROPERTY_FX_POSITION_CHANGE</cfield>
+<cmethod>copy(thinwire.ui.style.FX, boolean)</cmethod>
+<cfield>PROPERTY_FX_COLOR_CHANGE</cfield>
+<cmethod>setPositionChange(thinwire.ui.style.Effect.Motion)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getVisibleChange()</cmethod>
+<cmethod>getProperty(java.lang.String)</cmethod>
+<cfield>PROPERTY_FX_VISIBLE_CHANGE</cfield>
+<cmethod>getSizeChange()</cmethod>
+<cfield>PROPERTY_FX_OPACITY_CHANGE</cfield>
+<cmethod>getParent()</cmethod>
+<cmethod>setOpacityChange(thinwire.ui.style.Effect.Motion)</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>getPositionChange()</cmethod>
+<cmethod>toString()</cmethod>

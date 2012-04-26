@@ -1,0 +1,4 @@
+<cfield>isLazyClassArray</cfield>
+<cmethod>resolveValueHolderFrom(java.lang.ClassLoader)</cmethod>
+<cfield>isLazyClass</cfield>
+<cmethod>toString()</cmethod>

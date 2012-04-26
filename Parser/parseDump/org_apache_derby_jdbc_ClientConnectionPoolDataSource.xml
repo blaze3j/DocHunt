@@ -1,0 +1,6 @@
+<cmethod>getMaxStatements()</cmethod>
+<cfield>className__</cfield>
+<cmethod>setMaxStatements(int)</cmethod>
+<cmethod>getPooledConnection()</cmethod>
+<cmethod>maxStatementsToPool()</cmethod>
+<cmethod>getPooledConnection(java.lang.String, java.lang.String)</cmethod>

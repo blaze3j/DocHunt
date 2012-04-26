@@ -1,0 +1,2 @@
+<cmethod>visitMethod(int, java.lang.String, java.lang.String, java.lang.String[], org.objectweb.asm.Attribute)</cmethod>
+<cmethod>visit(int, int, java.lang.String, java.lang.String, java.lang.String[], java.lang.String)</cmethod>

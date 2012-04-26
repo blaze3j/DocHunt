@@ -1,0 +1,5 @@
+<cmethod>printStackTrace(java.io.PrintStream)</cmethod>
+<cmethod>printStackTrace(java.io.PrintWriter)</cmethod>
+<cmethod>getMessage()</cmethod>
+<cmethod>printStackTrace()</cmethod>
+<cmethod>getCause()</cmethod>

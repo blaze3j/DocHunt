@@ -1,0 +1,10 @@
+<cfield>kind</cfield>
+<cfield>specialToken</cfield>
+<cfield>image</cfield>
+<cfield>next</cfield>
+<cfield>endColumn</cfield>
+<cfield>beginColumn</cfield>
+<cmethod>toString()</cmethod>
+<cfield>beginLine</cfield>
+<cfield>endLine</cfield>
+<cmethod>newToken(int)</cmethod>

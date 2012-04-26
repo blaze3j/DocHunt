@@ -1,0 +1,6 @@
+<cfield>opt</cfield>
+<cmethod>getCommandLine()</cmethod>
+<cmethod>getAddress()</cmethod>
+<cmethod>getTransport()</cmethod>
+<cmethod>launchVM()</cmethod>
+<cfield>main</cfield>

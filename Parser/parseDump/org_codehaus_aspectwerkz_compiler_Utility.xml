@@ -1,0 +1,4 @@
+<cmethod>setVerbose(boolean)</cmethod>
+<cmethod>log(java.lang.String)</cmethod>
+<cmethod>deleteDir(java.io.File)</cmethod>
+<cmethod>backupFile(java.io.File, java.io.File)</cmethod>

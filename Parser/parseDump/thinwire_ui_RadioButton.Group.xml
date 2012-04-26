@@ -1,0 +1,21 @@
+<cmethod>add(int, thinwire.ui.RadioButton)</cmethod>
+<cmethod>getChecked()</cmethod>
+<cmethod>setEnabled(boolean)</cmethod>
+<cmethod>addActionListener(java.lang.String[], thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>fireAction(java.lang.String)</cmethod>
+<cmethod>addActionListener(java.lang.String, thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>isEnabled()</cmethod>
+<cmethod>set(int, thinwire.ui.RadioButton)</cmethod>
+<cmethod>getUserObject()</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>removePropertyChangeListener(thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>setChecked(thinwire.ui.RadioButton)</cmethod>
+<cmethod>remove(int)</cmethod>
+<cmethod>isVisible()</cmethod>
+<cmethod>fireAction(thinwire.ui.event.ActionEvent)</cmethod>
+<cmethod>setUserObject(java.lang.Object)</cmethod>
+<cmethod>removeActionListener(thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String, thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>get(int)</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String[], thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>size()</cmethod>

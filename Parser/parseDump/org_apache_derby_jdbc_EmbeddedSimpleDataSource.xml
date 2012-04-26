@@ -1,0 +1,22 @@
+<cmethod>getDataSourceName()</cmethod>
+<cmethod>setDatabaseName(java.lang.String)</cmethod>
+<cmethod>getConnection(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getLogWriter()</cmethod>
+<cmethod>setDescription(java.lang.String)</cmethod>
+<cmethod>getConnectionAttributes()</cmethod>
+<cmethod>setPassword(java.lang.String)</cmethod>
+<cmethod>setUser(java.lang.String)</cmethod>
+<cmethod>setCreateDatabase(java.lang.String)</cmethod>
+<cmethod>setConnectionAttributes(java.lang.String)</cmethod>
+<cmethod>getDescription()</cmethod>
+<cmethod>setLogWriter(java.io.PrintWriter)</cmethod>
+<cmethod>setLoginTimeout(int)</cmethod>
+<cmethod>getShutdownDatabase()</cmethod>
+<cmethod>getConnection()</cmethod>
+<cmethod>getDatabaseName()</cmethod>
+<cmethod>setShutdownDatabase(java.lang.String)</cmethod>
+<cmethod>getUser()</cmethod>
+<cmethod>getPassword()</cmethod>
+<cmethod>setDataSourceName(java.lang.String)</cmethod>
+<cmethod>getLoginTimeout()</cmethod>
+<cmethod>getCreateDatabase()</cmethod>

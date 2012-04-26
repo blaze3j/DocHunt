@@ -1,0 +1,3 @@
+<cmethod>getPooledConnection(java.lang.String, java.lang.String)</cmethod>
+<cmethod>createPooledConnection(java.lang.String, java.lang.String, boolean)</cmethod>
+<cmethod>getPooledConnection()</cmethod>

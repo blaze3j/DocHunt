@@ -1,0 +1,15 @@
+<cmethod>getSpecialArgumentTypeName()</cmethod>
+<cmethod>getSpecialArgumentIndex()</cmethod>
+<cmethod>getAdviceInfo()</cmethod>
+<cmethod>getCallerClassSignature()</cmethod>
+<cmethod>setSpecialArgumentIndex(int)</cmethod>
+<cmethod>getCalleeMemberDesc()</cmethod>
+<cmethod>getSpecialArgumentTypeDesc()</cmethod>
+<cmethod>getAdviceMethodArgIndexes()</cmethod>
+<cmethod>getAspectInfo()</cmethod>
+<cmethod>requiresThisOrTarget()</cmethod>
+<cmethod>getJoinPointIndex()</cmethod>
+<cmethod>setJoinPointIndex(int)</cmethod>
+<cmethod>requiresJoinPoint()</cmethod>
+<cmethod>getCalleeClassSignature()</cmethod>
+<cmethod>getJoinPointClassName()</cmethod>

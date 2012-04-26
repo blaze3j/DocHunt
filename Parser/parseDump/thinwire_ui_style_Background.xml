@@ -1,0 +1,21 @@
+<cmethod>getImage()</cmethod>
+<cmethod>getColor()</cmethod>
+<cmethod>getRepeat()</cmethod>
+<cmethod>setRepeat(thinwire.ui.style.Background.Repeat)</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>getPosition()</cmethod>
+<cmethod>setColor(thinwire.ui.style.Color)</cmethod>
+<cfield>PROPERTY_BACKGROUND_COLOR</cfield>
+<cmethod>getImageInfo()</cmethod>
+<cfield>PROPERTY_BACKGROUND_IMAGE</cfield>
+<cmethod>toString()</cmethod>
+<cfield>PROPERTY_BACKGROUND_POSITION</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>copy(thinwire.ui.style.Background)</cmethod>
+<cmethod>setProperty(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>copy(thinwire.ui.style.Background, boolean)</cmethod>
+<cmethod>setImage(java.lang.String)</cmethod>
+<cfield>PROPERTY_BACKGROUND_REPEAT</cfield>
+<cmethod>setPosition(thinwire.ui.style.Background.Position)</cmethod>
+<cmethod>getProperty(java.lang.String)</cmethod>

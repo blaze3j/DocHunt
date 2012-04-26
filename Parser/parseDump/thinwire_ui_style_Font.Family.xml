@@ -1,0 +1,14 @@
+<cfield>SANS_SERIF</cfield>
+<cmethod>sub(java.lang.String)</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cfield>MONOSPACE</cfield>
+<cmethod>toString()</cmethod>
+<cmethod>valueOf(java.lang.String)</cmethod>
+<cmethod>name()</cmethod>
+<cfield>FANTASY</cfield>
+<cfield>SERIF</cfield>
+<cmethod>hashCode()</cmethod>
+<cmethod>ordinal()</cmethod>
+<cfield>CURSIVE</cfield>
+<cmethod>values()</cmethod>

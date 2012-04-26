@@ -1,0 +1,11 @@
+<cmethod>getKeyPressCombo()</cmethod>
+<cmethod>isCtrl()</cmethod>
+<cmethod>isShift()</cmethod>
+<cmethod>isAlt()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>encodeKeyPressCombo(boolean, boolean, boolean, java.lang.String)</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getKey()</cmethod>
+<cmethod>getSourceComponent()</cmethod>
+<cmethod>normalizeKeyPressCombo(java.lang.String)</cmethod>

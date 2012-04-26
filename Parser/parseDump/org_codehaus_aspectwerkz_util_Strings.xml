@@ -1,0 +1,6 @@
+<cmethod>isNullOrEmpty(java.lang.String)</cmethod>
+<cmethod>splitString(java.lang.String, java.lang.String)</cmethod>
+<cmethod>replaceSubString(java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>removeFormattingCharacters(java.lang.String)</cmethod>
+<cmethod>extractMethodSignature(java.lang.String)</cmethod>
+<cmethod>replaceSubString(java.lang.String, java.lang.String, java.lang.String, int)</cmethod>

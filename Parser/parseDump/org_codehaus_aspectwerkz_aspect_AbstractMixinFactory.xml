@@ -1,0 +1,8 @@
+<cfield>m_perInstanceConstructor</cfield>
+<cmethod>mixinOf(java.lang.Object)</cmethod>
+<cfield>m_perClassConstructor</cfield>
+<cmethod>mixinOf()</cmethod>
+<cfield>m_defaultConstructor</cfield>
+<cfield>m_deploymentModel</cfield>
+<cmethod>mixinOf(java.lang.Class)</cmethod>
+<cfield>m_mixinClass</cfield>

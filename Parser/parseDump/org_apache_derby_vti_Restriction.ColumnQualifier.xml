@@ -1,0 +1,14 @@
+<cfield>ORDER_OP_GREATERTHAN</cfield>
+<cmethod>getComparisonOperator()</cmethod>
+<cfield>ORDER_OP_LESSOREQUALS</cfield>
+<cfield>ORDER_OP_GREATEROREQUALS</cfield>
+<cmethod>toEscapedString(java.lang.Object)</cmethod>
+<cfield>ORDER_OP_EQUALS</cfield>
+<cfield>ORDER_OP_NOT_EQUALS</cfield>
+<cmethod>toSQL()</cmethod>
+<cfield>ORDER_OP_LESSTHAN</cfield>
+<cfield>ORDER_OP_ISNOTNULL</cfield>
+<cmethod>getColumnName()</cmethod>
+<cmethod>getConstantOperand()</cmethod>
+<cfield>ORDER_OP_ISNULL</cfield>
+<cfield>serialVersionUID</cfield>

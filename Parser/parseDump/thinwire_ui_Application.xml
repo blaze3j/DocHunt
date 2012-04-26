@@ -1,0 +1,47 @@
+<cmethod>removeTimerTask(java.lang.Runnable)</cmethod>
+<cmethod>removeGlobalActionListener(thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>current()</cmethod>
+<cmethod>hideWindow(thinwire.ui.Window)</cmethod>
+<cmethod>getRelativeFile(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getPriorFocus()</cmethod>
+<cmethod>getResourceBytes(java.lang.String)</cmethod>
+<ccons>Application()</ccons>
+<cmethod>getDefaultStyle(java.lang.Class)</cmethod>
+<cmethod>addGlobalPropertyChangeListener(java.lang.String, thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>addGlobalDropListener(thinwire.ui.Component[], thinwire.ui.event.DropListener)</cmethod>
+<cmethod>addGlobalKeyPressListener(java.lang.String, thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>getSystemColors()</cmethod>
+<cmethod>getQualifiedURL(java.lang.String)</cmethod>
+<cmethod>releaseThread()</cmethod>
+<cmethod>getFileInfo()</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>addGlobalActionListener(java.lang.String[], thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>showWindow(thinwire.ui.Window)</cmethod>
+<cmethod>resetTimerTask(java.lang.Runnable)</cmethod>
+<cmethod>addExceptionListener(thinwire.ui.event.ExceptionListener)</cmethod>
+<cmethod>getResourceAsStream(java.lang.String)</cmethod>
+<cmethod>addGlobalKeyPressListener(java.lang.String[], thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>getSystemImages()</cmethod>
+<cmethod>removeFileFromMap(java.lang.String)</cmethod>
+<cmethod>removeGlobalItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cmethod>addGlobalActionListener(java.lang.String, thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>addTimerTask(java.lang.Runnable, long, boolean)</cmethod>
+<cmethod>removeGlobalKeyPressListener(thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>addGlobalDropListener(thinwire.ui.Component, thinwire.ui.event.DropListener)</cmethod>
+<cmethod>setPackagePrivateMember(java.lang.String, thinwire.ui.Component, java.lang.Object)</cmethod>
+<cmethod>getDefaultStyles()</cmethod>
+<cmethod>addGlobalPropertyChangeListener(java.lang.String[], thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>removeExceptionListener(thinwire.ui.event.ExceptionListener)</cmethod>
+<cmethod>getFrame()</cmethod>
+<cmethod>getPlatformVersionInfo()</cmethod>
+<cmethod>getBaseFolder()</cmethod>
+<cmethod>addGlobalItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cmethod>removeGlobalDropListener(thinwire.ui.event.DropListener)</cmethod>
+<cmethod>getSystemFile(java.lang.String)</cmethod>
+<cmethod>addTimerTask(java.lang.Runnable, long)</cmethod>
+<cmethod>writeResourceToStream(java.lang.String, java.io.OutputStream)</cmethod>
+<cmethod>getRelativeFile(java.lang.String)</cmethod>
+<cmethod>removeGlobalPropertyChangeListener(thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>loadStyleSheet(java.lang.String)</cmethod>
+<cmethod>reportException(java.lang.Object, java.lang.Throwable)</cmethod>
+<cmethod>captureThread()</cmethod>

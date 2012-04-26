@@ -1,0 +1,16 @@
+<cmethod>childrenAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>jjtGetNumChildren()</cmethod>
+<cmethod>jjtSetParent(org.codehaus.aspectwerkz.expression.ast.Node)</cmethod>
+<cmethod>jjtGetChild(int)</cmethod>
+<cfield>parent</cfield>
+<cmethod>jjtAddChild(org.codehaus.aspectwerkz.expression.ast.Node, int)</cmethod>
+<cfield>parser</cfield>
+<cmethod>dump(java.lang.String)</cmethod>
+<cfield>id</cfield>
+<cmethod>toString()</cmethod>
+<cmethod>jjtOpen()</cmethod>
+<cmethod>jjtGetParent()</cmethod>
+<cfield>children</cfield>
+<cmethod>toString(java.lang.String)</cmethod>
+<cmethod>jjtClose()</cmethod>

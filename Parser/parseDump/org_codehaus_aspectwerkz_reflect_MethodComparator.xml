@@ -1,0 +1,5 @@
+<cfield>NORMAL_METHOD</cfield>
+<cmethod>getInstance(int)</cmethod>
+<cfield>METHOD_INFO</cfield>
+<cfield>PREFIXED_METHOD</cfield>
+<cmethod>compare(java.lang.Object, java.lang.Object)</cmethod>

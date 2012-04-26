@@ -1,0 +1,9 @@
+<cmethod>collectInterfaces(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>collectMethodsFromInterfacesImplementedBy(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>hasMethodClash(java.util.Set, java.lang.ClassLoader)</cmethod>
+<cmethod>extendsSuperClass(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String)</cmethod>
+<cmethod>createMethodList(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>instanceOf(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String)</cmethod>
+<cmethod>createInterfaceDefinedMethodList(org.codehaus.aspectwerkz.reflect.ClassInfo, java.util.List)</cmethod>
+<cmethod>implementsInterface(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String)</cmethod>
+<cmethod>collectMethodsFromInterface(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>

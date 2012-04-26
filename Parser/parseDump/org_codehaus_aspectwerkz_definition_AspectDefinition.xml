@@ -1,0 +1,27 @@
+<cfield>ASPECTWERKZ_ASPECT_MODEL_TYPE</cfield>
+<cmethod>setAspectModel(java.lang.String)</cmethod>
+<cmethod>setDeploymentModel(org.codehaus.aspectwerkz.DeploymentModel)</cmethod>
+<cmethod>getInterfaceIntroductionDefinitions()</cmethod>
+<cmethod>addAfterAdviceDefinition(org.codehaus.aspectwerkz.definition.AdviceDefinition)</cmethod>
+<cmethod>getDeploymentModel()</cmethod>
+<cmethod>getPointcutDefinitions()</cmethod>
+<cmethod>getAfterAdviceDefinitions()</cmethod>
+<cmethod>addParameter(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getQualifiedName()</cmethod>
+<cmethod>setContainerClassName(java.lang.String)</cmethod>
+<cmethod>getContainerClassName()</cmethod>
+<cmethod>addAroundAdviceDefinition(org.codehaus.aspectwerkz.definition.AdviceDefinition)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getParameters()</cmethod>
+<cmethod>addInterfaceIntroductionDefinition(org.codehaus.aspectwerkz.definition.InterfaceIntroductionDefinition)</cmethod>
+<cmethod>getClassName()</cmethod>
+<cmethod>getBeforeAdviceDefinitions()</cmethod>
+<cmethod>getAspectModel()</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cmethod>addPointcutDefinition(org.codehaus.aspectwerkz.definition.PointcutDefinition)</cmethod>
+<cmethod>isAspectWerkzAspect()</cmethod>
+<cmethod>addBeforeAdviceDefinition(org.codehaus.aspectwerkz.definition.AdviceDefinition)</cmethod>
+<cmethod>getSystemDefinition()</cmethod>
+<cmethod>getClassInfo()</cmethod>
+<cmethod>getAdviceDefinitions()</cmethod>
+<cmethod>getAroundAdviceDefinitions()</cmethod>

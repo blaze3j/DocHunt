@@ -1,0 +1,85 @@
+<cmethod>getJoinPointReturnType()</cmethod>
+<cmethod>hasArguments()</cmethod>
+<cfield>m_requiresThisOrTarget</cfield>
+<cfield>m_aroundAdviceMethodInfos</cfield>
+<cmethod>loadArgumentMemberFields(org.objectweb.asm.CodeVisitor, int)</cmethod>
+<cmethod>createProceedMethod()</cmethod>
+<cmethod>loadJoinPointInstance(org.objectweb.asm.CodeVisitor, boolean, int)</cmethod>
+<cmethod>createInvocationLocalJoinPointInstance(org.objectweb.asm.CodeVisitor, int, int, int, int)</cmethod>
+<cmethod>createAfterAdviceInvocation(org.objectweb.asm.CodeVisitor, boolean, org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo, int, int, int, int, int)</cmethod>
+<cmethod>createBeforeAdviceInvocations(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cmethod>createClinit()</cmethod>
+<cfield>DUMP_JIT_CLASSES</cfield>
+<cmethod>createInvocationToProceedMethod(org.objectweb.asm.CodeVisitor, int, int)</cmethod>
+<cfield>m_callerMethodName</cfield>
+<cfield>m_isThisAdvisable</cfield>
+<cmethod>createFieldsCommonToAllJoinPoints()</cmethod>
+<cmethod>createPartOfInvokeMethodWithoutAfterFinallyAndAfterThrowingAdviceTypes(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cmethod>requiresProceedMethod()</cmethod>
+<cfield>m_requiresJoinPoint</cfield>
+<cmethod>createGetSignatureMethod()</cmethod>
+<cfield>THIS_CLASS_FIELD_NAME</cfield>
+<cmethod>createArgumentArrayAt(org.objectweb.asm.CodeVisitor, int)</cmethod>
+<cfield>m_calleeClassSignature</cfield>
+<cfield>m_calleeMemberName</cfield>
+<cfield>m_callerClassSignature</cfield>
+<cmethod>addReturnedValueToJoinPoint(org.objectweb.asm.CodeVisitor, int, int, boolean)</cmethod>
+<cmethod>loadArguments(org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>createUtilityMethods()</cmethod>
+<cmethod>createStaticInitializer()</cmethod>
+<cfield>m_joinPointClassName</cfield>
+<cmethod>createGetRttiMethod()</cmethod>
+<cmethod>createAfterFinallyAdviceInvocations(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cfield>m_callerMethodModifiers</cfield>
+<cmethod>createEnclosingStaticJoinPoint(org.objectweb.asm.CodeVisitor)</cmethod>
+<cfield>TARGET_CLASS_FIELD_NAME</cfield>
+<cfield>m_joinPointType</cfield>
+<cfield>DUMP_DIR</cfield>
+<cmethod>createCopyMethod()</cmethod>
+<cmethod>incrementStackFrameCounter(org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>getJoinPointArgumentTypes()</cmethod>
+<cmethod>resetStackFrameCounter(org.objectweb.asm.CodeVisitor)</cmethod>
+<cfield>m_customProceedMethodStructs</cfield>
+<cmethod>createInit()</cmethod>
+<cfield>m_calleeClassName</cfield>
+<cmethod>compile()</cmethod>
+<cfield>m_returnType</cfield>
+<cfield>m_afterReturningAdviceMethodInfos</cfield>
+<cfield>m_calleeMemberModifiers</cfield>
+<cfield>m_callerMethodDesc</cfield>
+<cfield>m_fieldNames</cfield>
+<cmethod>requiresJoinPoint()</cmethod>
+<cmethod>createInvokeMethod()</cmethod>
+<cmethod>createJoinPointSpecificFields()</cmethod>
+<cfield>m_beforeAdviceMethodInfos</cfield>
+<cmethod>createAndInitializeAspectField(org.codehaus.aspectwerkz.transform.inlining.AspectInfo, org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>createAfterReturningAdviceInvocations(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cfield>m_calleeMemberDesc</cfield>
+<cmethod>createAspectReferenceField(org.objectweb.asm.ClassWriter, org.codehaus.aspectwerkz.transform.inlining.AspectInfo)</cmethod>
+<cmethod>createAspectInstantiation(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.transform.inlining.AspectInfo, java.lang.String)</cmethod>
+<cmethod>loadAspect(org.objectweb.asm.CodeVisitor, boolean, int, org.codehaus.aspectwerkz.transform.inlining.AspectInfo)</cmethod>
+<cfield>m_callerClassName</cfield>
+<cfield>m_afterThrowingAdviceMethodInfos</cfield>
+<cmethod>createJoinPointInvocation(org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>requiresThisOrTarget(org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo[])</cmethod>
+<cmethod>createSignature(org.objectweb.asm.CodeVisitor)</cmethod>
+<cfield>m_aspectModels</cfield>
+<cmethod>getAdviceMethodInfos(java.util.List, java.util.Set, org.codehaus.aspectwerkz.aspect.AdviceInfo[])</cmethod>
+<cfield>m_aspectInfos</cfield>
+<cmethod>createPartOfInvokeMethodWithAllAdviceTypes(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cfield>m_afterFinallyAdviceMethodInfos</cfield>
+<cmethod>createPartOfInvokeMethodWithoutAfterThrowingAdviceTypes(org.objectweb.asm.CodeVisitor, boolean, int, int, int, int)</cmethod>
+<cmethod>requiresThisOrTarget()</cmethod>
+<cmethod>loadCallee(org.objectweb.asm.CodeVisitor, boolean, int, int)</cmethod>
+<cmethod>beginRuntimeCheck(org.objectweb.asm.CodeVisitor, boolean, int, org.codehaus.aspectwerkz.aspect.AdviceInfo, int)</cmethod>
+<cfield>m_cw</cfield>
+<cfield>m_argumentTypes</cfield>
+<cmethod>initializeInstanceLevelAspects(org.objectweb.asm.CodeVisitor, boolean, int, int, int)</cmethod>
+<cmethod>buildInvokeMethodSignature()</cmethod>
+<cmethod>loadCaller(org.objectweb.asm.CodeVisitor, boolean, int, int)</cmethod>
+<cfield>m_joinPointHash</cfield>
+<cmethod>requiresJoinPoint(org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo[])</cmethod>
+<cmethod>createInvocationToAspectOf(org.objectweb.asm.CodeVisitor, boolean, int, int, int, org.codehaus.aspectwerkz.transform.inlining.AspectInfo)</cmethod>
+<cfield>m_hasAroundAdvices</cfield>
+<cmethod>endRuntimeCheck(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.aspect.AdviceInfo, org.objectweb.asm.Label)</cmethod>
+<cmethod>createInlinedJoinPointInvocation(org.objectweb.asm.CodeVisitor, boolean, int, int)</cmethod>

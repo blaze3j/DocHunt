@@ -1,0 +1,4 @@
+<cmethod>setWidth(double)</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>getWidth()</cmethod>
+<cmethod>isVisible()</cmethod>

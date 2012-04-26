@@ -1,0 +1,21 @@
+<cmethod>getImage()</cmethod>
+<cmethod>getColor()</cmethod>
+<cmethod>copy(thinwire.ui.style.Border)</cmethod>
+<cmethod>getType()</cmethod>
+<cmethod>setSize(int)</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>getSize()</cmethod>
+<cmethod>setColor(thinwire.ui.style.Color)</cmethod>
+<cmethod>copy(thinwire.ui.style.Border, boolean)</cmethod>
+<cfield>PROPERTY_BORDER_TYPE</cfield>
+<cmethod>getImageInfo()</cmethod>
+<cfield>PROPERTY_BORDER_COLOR</cfield>
+<cmethod>toString()</cmethod>
+<cfield>PROPERTY_BORDER_SIZE</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>setProperty(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>setImage(java.lang.String)</cmethod>
+<cfield>PROPERTY_BORDER_IMAGE</cfield>
+<cmethod>setType(thinwire.ui.style.Border.Type)</cmethod>
+<cmethod>getProperty(java.lang.String)</cmethod>

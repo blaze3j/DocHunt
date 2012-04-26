@@ -1,0 +1,13 @@
+<cfield>PROPERTY_CURSOR_INDEX</cfield>
+<cmethod>getMaxLength()</cmethod>
+<cmethod>getCursorIndex()</cmethod>
+<cmethod>getSelectionEndIndex()</cmethod>
+<cfield>PROPERTY_SELECTION_BEGIN_INDEX</cfield>
+<cmethod>setSelectionEndIndex(int)</cmethod>
+<cmethod>setSelectionRange(int, int)</cmethod>
+<cfield>PROPERTY_MAX_LENGTH</cfield>
+<cmethod>setSelectionBeginIndex(int)</cmethod>
+<cfield>PROPERTY_SELECTION_END_INDEX</cfield>
+<cmethod>setCursorIndex(int)</cmethod>
+<cmethod>getSelectionBeginIndex()</cmethod>
+<cmethod>setMaxLength(int)</cmethod>

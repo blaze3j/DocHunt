@@ -1,0 +1,13 @@
+<cmethod>aw$getAfterThrowingAdvice(int)</cmethod>
+<cfield>EMPTY_AROUND_ADVICE_ARRAY</cfield>
+<cmethod>aw$getAfterAdvice(int)</cmethod>
+<cfield>EMPTY_AFTER_ADVICE_ARRAY</cfield>
+<cfield>EMPTY_AFTER_RETURNING_ADVICE_ARRAY</cfield>
+<cmethod>aw$getAfterReturningAdvice(int)</cmethod>
+<cfield>EMPTY_BEFORE_ADVICE_ARRAY</cfield>
+<cmethod>aw_removeAdvice(java.lang.String, java.lang.Class)</cmethod>
+<cfield>CLASS_INFO</cfield>
+<cmethod>aw$getAroundAdvice(int)</cmethod>
+<cmethod>aw_addAdvice(java.lang.String, org.codehaus.aspectwerkz.intercept.Advice)</cmethod>
+<cfield>EMPTY_AFTER_THROWING_ADVICE_ARRAY</cfield>
+<cmethod>aw$getBeforeAdvice(int)</cmethod>

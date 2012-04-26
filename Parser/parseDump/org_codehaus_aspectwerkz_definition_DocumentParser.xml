@@ -1,0 +1,5 @@
+<cmethod>parse(java.lang.ClassLoader, org.dom4j.Document)</cmethod>
+<cmethod>parseAspectClassNames(org.dom4j.Document)</cmethod>
+<cmethod>parsePrepareElements(org.dom4j.Element, org.codehaus.aspectwerkz.definition.SystemDefinition, java.lang.String)</cmethod>
+<cmethod>addVirtualAspect(org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>parseAspectDefinition(org.dom4j.Document, org.codehaus.aspectwerkz.definition.SystemDefinition, java.lang.Class)</cmethod>

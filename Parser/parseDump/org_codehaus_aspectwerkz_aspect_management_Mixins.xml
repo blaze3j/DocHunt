@@ -1,0 +1,10 @@
+<cmethod>mixinOf(java.lang.Class, java.lang.Class)</cmethod>
+<cmethod>mixinOf(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>mixinOf(java.lang.String, java.lang.Class)</cmethod>
+<cmethod>mixinOf(java.lang.String, java.lang.Object)</cmethod>
+<cfield>DEFAULT_MIXIN_FACTORY</cfield>
+<cmethod>getParameters(java.lang.Class, java.lang.ClassLoader)</cmethod>
+<cmethod>getMixinDefinition(java.lang.Class, java.lang.ClassLoader)</cmethod>
+<cmethod>mixinOf(java.lang.Class, java.lang.Object)</cmethod>
+<cmethod>mixinOf(java.lang.Class)</cmethod>
+<cmethod>getFactory(java.lang.Class, java.lang.ClassLoader)</cmethod>

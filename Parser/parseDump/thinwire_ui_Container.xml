@@ -1,0 +1,11 @@
+<cfield>PROPERTY_SCROLL_TYPE</cfield>
+<cmethod>getComponentWithFocus()</cmethod>
+<cfield>PROPERTY_LAYOUT</cfield>
+<cmethod>getChildWithFocus()</cmethod>
+<cmethod>getChildren()</cmethod>
+<cmethod>setScrollType(thinwire.ui.Container.ScrollType)</cmethod>
+<cmethod>getLayout()</cmethod>
+<cmethod>getInnerWidth()</cmethod>
+<cmethod>getScrollType()</cmethod>
+<cmethod>getInnerHeight()</cmethod>
+<cmethod>setLayout(thinwire.ui.layout.Layout)</cmethod>

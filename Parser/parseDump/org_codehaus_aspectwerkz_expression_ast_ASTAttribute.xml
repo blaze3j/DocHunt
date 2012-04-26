@@ -1,0 +1,5 @@
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>toggleNot()</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>isNot()</cmethod>

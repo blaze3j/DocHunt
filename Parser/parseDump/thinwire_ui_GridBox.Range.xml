@@ -1,0 +1,10 @@
+<cmethod>getColumn()</cmethod>
+<cmethod>getRowIndex()</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>getRow()</cmethod>
+<cmethod>getCell()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>setCell(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getColumnIndex()</cmethod>

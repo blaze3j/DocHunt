@@ -1,0 +1,5 @@
+<cmethod>isCompileTime()</cmethod>
+<cmethod>setSharedState(java.lang.String, java.io.Serializable)</cmethod>
+<cmethod>getStatementIsolationLevel()</cmethod>
+<cmethod>getSharedState(java.lang.String)</cmethod>
+<cmethod>getOriginalSQL()</cmethod>

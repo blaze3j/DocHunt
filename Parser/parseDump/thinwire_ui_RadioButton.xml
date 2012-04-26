@@ -1,0 +1,56 @@
+<cmethod>getWidth()</cmethod>
+<cmethod>getLimit()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, boolean, boolean)</cmethod>
+<cmethod>isFocus()</cmethod>
+<cmethod>setBounds(int, int, int, int)</cmethod>
+<cmethod>addKeyPressListener(java.lang.String[], thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component, java.lang.Object)</cmethod>
+<cmethod>addKeyPressListener(java.lang.String, thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>addDropListener(thinwire.ui.Component[], thinwire.ui.event.DropListener)</cmethod>
+<cmethod>fireKeyPress(java.lang.String)</cmethod>
+<cmethod>isFocusCapable()</cmethod>
+<cmethod>getX()</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String, thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>setUserObject(java.lang.Object)</cmethod>
+<cmethod>setY(int)</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component)</cmethod>
+<cmethod>fireAction(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>removeKeyPressListener(thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireAction(java.lang.String)</cmethod>
+<cmethod>setWidth(int)</cmethod>
+<cmethod>setHeight(int)</cmethod>
+<cmethod>getStyle()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, int, int)</cmethod>
+<cmethod>setFocus(boolean)</cmethod>
+<cmethod>setLimit(java.lang.Object)</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>addDropListener(thinwire.ui.Component, thinwire.ui.event.DropListener)</cmethod>
+<cmethod>removeActionListener(thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>fireAction(thinwire.ui.event.ActionEvent)</cmethod>
+<cmethod>setSize(int, int)</cmethod>
+<cmethod>setChecked(boolean)</cmethod>
+<cmethod>fireDrop(thinwire.ui.event.DropEvent)</cmethod>
+<cmethod>getContainer()</cmethod>
+<cmethod>setX(int)</cmethod>
+<cmethod>getUserObject()</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>removePropertyChangeListener(thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>removeDropListener(thinwire.ui.event.DropListener)</cmethod>
+<cmethod>isVisible()</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>getText()</cmethod>
+<cmethod>setText(java.lang.String)</cmethod>
+<cmethod>isEnabled()</cmethod>
+<cmethod>addActionListener(java.lang.String[], thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>addActionListener(java.lang.String, thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>getGroup()</cmethod>
+<cmethod>isChecked()</cmethod>
+<cmethod>fireKeyPress(thinwire.ui.event.KeyPressEvent)</cmethod>
+<cmethod>setFocusCapable(boolean)</cmethod>
+<cmethod>setEnabled(boolean)</cmethod>
+<cmethod>setPosition(int, int)</cmethod>
+<cmethod>getLabel()</cmethod>
+<cmethod>getHeight()</cmethod>
+<cfield>PROPERTY_GROUP</cfield>
+<cmethod>getY()</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String[], thinwire.ui.event.PropertyChangeListener)</cmethod>

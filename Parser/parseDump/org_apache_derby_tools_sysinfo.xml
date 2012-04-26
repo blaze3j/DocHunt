@@ -1,0 +1,16 @@
+<cmethod>getVersionString()</cmethod>
+<cfield>DBMS</cfield>
+<cmethod>getBuildNumber()</cmethod>
+<cfield>CLIENT</cfield>
+<cmethod>getProductName(java.lang.String)</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>getVersionString(java.lang.String)</cmethod>
+<cmethod>getMinorVersion(java.lang.String)</cmethod>
+<cmethod>getInfo(java.io.PrintWriter)</cmethod>
+<cmethod>getBuildNumber(java.lang.String)</cmethod>
+<cmethod>getMajorVersion(java.lang.String)</cmethod>
+<cmethod>getProductName()</cmethod>
+<cmethod>getMajorVersion()</cmethod>
+<cfield>NET</cfield>
+<cfield>TOOLS</cfield>
+<cmethod>getMinorVersion()</cmethod>

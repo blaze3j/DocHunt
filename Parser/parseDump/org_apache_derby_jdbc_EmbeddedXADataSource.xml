@@ -1,0 +1,4 @@
+<cmethod>getResourceAdapter()</cmethod>
+<cmethod>getXAConnection()</cmethod>
+<cmethod>createXAConnection(org.apache.derby.iapi.jdbc.ResourceAdapter, java.lang.String, java.lang.String, boolean)</cmethod>
+<cmethod>getXAConnection(java.lang.String, java.lang.String)</cmethod>

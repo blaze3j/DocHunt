@@ -1,0 +1,31 @@
+<cmethod>isUnderline()</cmethod>
+<cmethod>getFamily()</cmethod>
+<cfield>PROPERTY_FONT_BOLD</cfield>
+<cmethod>getStringWidth(java.lang.String)</cmethod>
+<cmethod>copy(thinwire.ui.style.Font, boolean)</cmethod>
+<cmethod>isStrike()</cmethod>
+<cmethod>setSize(double)</cmethod>
+<cmethod>setBold(boolean)</cmethod>
+<cmethod>setProperty(java.lang.String, java.lang.Object)</cmethod>
+<cfield>PROPERTY_FONT_ITALIC</cfield>
+<cfield>PROPERTY_FONT_COLOR</cfield>
+<cfield>PROPERTY_FONT_FAMILY</cfield>
+<cmethod>setStrike(boolean)</cmethod>
+<cmethod>setColor(thinwire.ui.style.Color)</cmethod>
+<cfield>PROPERTY_FONT_SIZE</cfield>
+<cmethod>setFamily(thinwire.ui.style.Font.Family)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cfield>PROPERTY_FONT_UNDERLINE</cfield>
+<cmethod>isBold()</cmethod>
+<cmethod>getProperty(java.lang.String)</cmethod>
+<cmethod>copy(thinwire.ui.style.Font)</cmethod>
+<cfield>PROPERTY_FONT_STRIKE</cfield>
+<cmethod>setUnderline(boolean)</cmethod>
+<cmethod>setItalic(boolean)</cmethod>
+<cmethod>getStringHeight(java.lang.String)</cmethod>
+<cmethod>getColor()</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>getSize()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>isItalic()</cmethod>
+<cmethod>toString()</cmethod>

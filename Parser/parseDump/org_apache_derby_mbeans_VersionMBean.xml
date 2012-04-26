@@ -1,0 +1,10 @@
+<cmethod>getVersionString()</cmethod>
+<cmethod>getBuildNumber()</cmethod>
+<cmethod>getProductVendorName()</cmethod>
+<cmethod>isBeta()</cmethod>
+<cmethod>getProductTechnologyName()</cmethod>
+<cmethod>getMaintenanceVersion()</cmethod>
+<cmethod>getMajorVersion()</cmethod>
+<cmethod>getProductName()</cmethod>
+<cmethod>isAlpha()</cmethod>
+<cmethod>getMinorVersion()</cmethod>

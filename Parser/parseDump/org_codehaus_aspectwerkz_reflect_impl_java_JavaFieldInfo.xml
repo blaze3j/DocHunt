@@ -1,0 +1,6 @@
+<cmethod>getFieldInfo(java.lang.reflect.Field)</cmethod>
+<cmethod>getType()</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getAnnotations()</cmethod>

@@ -1,0 +1,14 @@
+<cfield>JJTOCT</cfield>
+<cfield>JJTHEX</cfield>
+<cfield>JJTSTRING</cfield>
+<cfield>JJTBOOLEAN</cfield>
+<cfield>JJTROOT</cfield>
+<cfield>JJTCHAR</cfield>
+<cfield>JJTFLOAT</cfield>
+<cfield>JJTARRAY</cfield>
+<cfield>JJTVOID</cfield>
+<cfield>JJTANNOTATION</cfield>
+<cfield>JJTIDENTIFIER</cfield>
+<cfield>JJTKEYVALUEPAIR</cfield>
+<cfield>JJTINTEGER</cfield>
+<cfield>jjtNodeName</cfield>

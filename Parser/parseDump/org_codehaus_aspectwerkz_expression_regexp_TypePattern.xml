@@ -1,0 +1,14 @@
+<cmethod>matches(java.lang.String)</cmethod>
+<cmethod>matchInterfaces(org.codehaus.aspectwerkz.reflect.ClassInfo[], org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>isEagerWildCard()</cmethod>
+<cfield>m_typeNamePattern</cfield>
+<cmethod>matchType(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>getSubtypePatternType()</cmethod>
+<cmethod>matchSuperClasses(org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cfield>m_pattern</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getPattern()</cmethod>
+<cmethod>hashCodeOrZeroIfNull(java.lang.Object)</cmethod>
+<cmethod>areEqualsOrBothNull(java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>escape(java.lang.String)</cmethod>

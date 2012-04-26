@@ -1,0 +1,6 @@
+<cmethod>getSignature()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cmethod>getDeclaringType()</cmethod>
+<cmethod>getAnnotations()</cmethod>
+<cfield>m_declaringType</cfield>

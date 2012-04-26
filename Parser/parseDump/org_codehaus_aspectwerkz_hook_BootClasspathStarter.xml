@@ -1,0 +1,4 @@
+<cfield>opt</cfield>
+<cmethod>launchVM()</cmethod>
+<cfield>main</cfield>
+<cmethod>getCommandLine()</cmethod>

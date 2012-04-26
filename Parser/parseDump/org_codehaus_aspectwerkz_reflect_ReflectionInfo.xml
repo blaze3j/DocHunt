@@ -1,0 +1,4 @@
+<cmethod>getModifiers()</cmethod>
+<cmethod>getAnnotations()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getSignature()</cmethod>

@@ -1,0 +1,7 @@
+<cmethod>getType()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getFieldInfo(java.lang.String, java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>getAnnotations()</cmethod>

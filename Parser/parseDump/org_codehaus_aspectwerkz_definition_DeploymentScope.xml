@@ -1,0 +1,6 @@
+<cfield>MATCH_ALL</cfield>
+<cmethod>getExpression()</cmethod>
+<cmethod>newExpressionInfo(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>

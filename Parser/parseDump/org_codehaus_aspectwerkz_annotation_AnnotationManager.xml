@@ -1,0 +1,8 @@
+<cmethod>addSource(java.lang.String)</cmethod>
+<cmethod>instantiateNestedAnnotation(java.lang.Class, java.util.Map)</cmethod>
+<cmethod>getAllClasses()</cmethod>
+<cmethod>getAnnotations(java.lang.String, com.thoughtworks.qdox.model.JavaField)</cmethod>
+<cmethod>addSourceTrees(java.lang.String[])</cmethod>
+<cmethod>getAnnotations(java.lang.String, com.thoughtworks.qdox.model.JavaClass)</cmethod>
+<cmethod>getAnnotations(java.lang.String, com.thoughtworks.qdox.model.JavaMethod)</cmethod>
+<cmethod>registerAnnotationProxy(java.lang.Class, java.lang.String)</cmethod>

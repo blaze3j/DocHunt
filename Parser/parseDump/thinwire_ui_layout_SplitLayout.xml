@@ -1,0 +1,11 @@
+<cmethod>setContainer(thinwire.ui.Container)</cmethod>
+<cmethod>getMaximize()</cmethod>
+<cmethod>isSplitVertical()</cmethod>
+<cmethod>getSplit()</cmethod>
+<cmethod>setMaximize(thinwire.ui.layout.SplitLayout.Maximize)</cmethod>
+<cmethod>setSplit(double)</cmethod>
+<cmethod>setSplitVertical(boolean)</cmethod>
+<cmethod>isMaximized()</cmethod>
+<cmethod>setMargin(int)</cmethod>
+<cmethod>update()</cmethod>
+<cmethod>getSpacerStyle()</cmethod>

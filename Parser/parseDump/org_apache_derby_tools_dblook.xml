@@ -1,0 +1,17 @@
+<cmethod>stripQuotes(java.lang.String)</cmethod>
+<cmethod>writeVerboseOutput(java.lang.String, java.lang.String)</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>lookupSchemaId(java.lang.String)</cmethod>
+<cmethod>expandDoubleQuotes(java.lang.String)</cmethod>
+<cmethod>getColumnListFromDescription(java.lang.String, java.lang.String)</cmethod>
+<cmethod>stringContainsTargetTable(java.lang.String)</cmethod>
+<cmethod>isExcludedTable(java.lang.String)</cmethod>
+<cmethod>getColNameFromNumber(java.lang.String, int)</cmethod>
+<cmethod>addQuotes(java.lang.String)</cmethod>
+<cmethod>addSingleQuotes(java.lang.String)</cmethod>
+<cmethod>unExpandDoubleQuotes(java.lang.String)</cmethod>
+<cmethod>removeNewlines(java.lang.String)</cmethod>
+<cmethod>lookupMessage(java.lang.String)</cmethod>
+<cmethod>lookupTableId(java.lang.String)</cmethod>
+<cmethod>lookupMessage(java.lang.String, java.lang.String[])</cmethod>
+<cmethod>isIgnorableSchema(java.lang.String)</cmethod>

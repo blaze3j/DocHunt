@@ -1,0 +1,20 @@
+<cmethod>setCompilationPath(java.io.File[], java.lang.ClassLoader)</cmethod>
+<cmethod>setPreprocessor(java.lang.String)</cmethod>
+<cmethod>doHelp()</cmethod>
+<cmethod>doCompile(java.io.File, java.lang.String)</cmethod>
+<cmethod>setVerify(boolean)</cmethod>
+<cmethod>setVerbose(boolean)</cmethod>
+<cmethod>getUtility()</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>restoreBackup()</cmethod>
+<cmethod>setBackupDir(java.lang.String)</cmethod>
+<cmethod>setDetails(boolean)</cmethod>
+<cmethod>compile(org.codehaus.aspectwerkz.compiler.AspectWerkzC, java.lang.ClassLoader, java.lang.String, java.util.List, java.util.List)</cmethod>
+<cmethod>compileClass(java.io.File, java.lang.String)</cmethod>
+<cmethod>setHaltOnError(boolean)</cmethod>
+<cmethod>compileJar(java.io.File)</cmethod>
+<cmethod>postCompile(java.lang.String)</cmethod>
+<cmethod>backup(java.io.File, int)</cmethod>
+<cmethod>setGenJp(boolean)</cmethod>
+<cmethod>compile(java.io.File)</cmethod>
+<cmethod>isJarFile(java.io.File)</cmethod>

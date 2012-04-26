@@ -1,0 +1,4 @@
+<cmethod>getClassPreProcessor()</cmethod>
+<cmethod>defineClass0Pre(java.lang.ClassLoader, java.lang.String, java.lang.Object, int, int, java.security.ProtectionDomain)</cmethod>
+<cmethod>defineClass0Pre(java.lang.ClassLoader, java.lang.String, byte[], int, int, java.security.ProtectionDomain)</cmethod>
+<cmethod>initializePreProcessor()</cmethod>

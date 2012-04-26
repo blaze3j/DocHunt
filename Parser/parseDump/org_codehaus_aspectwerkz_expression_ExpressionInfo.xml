@@ -1,0 +1,19 @@
+<cmethod>inheritPossibleArgumentFrom(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cfield>JOINPOINT_CLASS_NAME</cfield>
+<cmethod>getArgumentType(java.lang.String)</cmethod>
+<cmethod>getNamespace()</cmethod>
+<cmethod>getCflowAspectExpression()</cmethod>
+<cmethod>getParser()</cmethod>
+<cmethod>getSpecialArgumentName()</cmethod>
+<cfield>STATIC_JOINPOINT_CLASS_NAME</cfield>
+<cmethod>toString()</cmethod>
+<cmethod>getArgumentNameAtIndex(int)</cmethod>
+<cmethod>setSpecialArgumentName(java.lang.String)</cmethod>
+<cmethod>getAdvisedClassFilterExpression()</cmethod>
+<cmethod>getArgumentIndex(java.lang.String)</cmethod>
+<cmethod>getArgumentNames()</cmethod>
+<cmethod>addArgument(java.lang.String, java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>getExpression()</cmethod>
+<cfield>JOINPOINT_ABBREVIATION</cfield>
+<cfield>STATIC_JOINPOINT_ABBREVIATION</cfield>
+<cfield>RTTI_ABBREVIATION</cfield>

@@ -1,0 +1,18 @@
+<cfield>NO_OPTIONS</cfield>
+<cmethod>decodeFromFile(java.lang.String)</cmethod>
+<cmethod>encodeBytes(byte[])</cmethod>
+<cmethod>decodeToObject(java.lang.String)</cmethod>
+<cmethod>encodeBytes(byte[], int, int, int)</cmethod>
+<cmethod>encodeBytes(byte[], int, int)</cmethod>
+<cmethod>encodeFromFile(java.lang.String)</cmethod>
+<cmethod>encodeToFile(byte[], java.lang.String)</cmethod>
+<cmethod>encodeObject(java.io.Serializable)</cmethod>
+<cfield>DECODE</cfield>
+<cfield>GZIP</cfield>
+<cmethod>decode(byte[], int, int)</cmethod>
+<cfield>DONT_BREAK_LINES</cfield>
+<cmethod>encodeBytes(byte[], int)</cmethod>
+<cfield>ENCODE</cfield>
+<cmethod>decodeToFile(java.lang.String, java.lang.String)</cmethod>
+<cmethod>encodeObject(java.io.Serializable, int)</cmethod>
+<cmethod>decode(java.lang.String)</cmethod>

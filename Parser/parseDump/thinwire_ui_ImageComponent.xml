@@ -1,0 +1,4 @@
+<cmethod>getImage()</cmethod>
+<cmethod>setImage(java.lang.String)</cmethod>
+<cfield>PROPERTY_IMAGE</cfield>
+<cmethod>getImageInfo()</cmethod>

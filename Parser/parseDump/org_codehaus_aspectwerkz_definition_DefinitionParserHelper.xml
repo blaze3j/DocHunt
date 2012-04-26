@@ -1,0 +1,10 @@
+<cmethod>createAdviceDefinition(java.lang.String, org.codehaus.aspectwerkz.aspect.AdviceType, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.codehaus.aspectwerkz.reflect.MethodInfo, org.codehaus.aspectwerkz.definition.AspectDefinition)</cmethod>
+<cfield>EXPRESSION_PREFIX</cfield>
+<cmethod>createAndAddMixinDefToSystemDef(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String, org.codehaus.aspectwerkz.DeploymentModel, boolean, org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>createMixinDefinition(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String, org.codehaus.aspectwerkz.DeploymentModel, boolean, org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>createAndAddInterfaceIntroductionDefToAspectDef(java.lang.String, java.lang.String, java.lang.String, org.codehaus.aspectwerkz.definition.AspectDefinition)</cmethod>
+<cmethod>attachDeploymentScopeDefsToVirtualAdvice(org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>createAndAddAdvisableDef(java.lang.String, org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>createAndAddDeploymentScopeDef(java.lang.String, java.lang.String, org.codehaus.aspectwerkz.definition.SystemDefinition)</cmethod>
+<cmethod>createInterfaceIntroductionDefinition(java.lang.String, java.lang.String, java.lang.String, org.codehaus.aspectwerkz.definition.AspectDefinition)</cmethod>
+<cmethod>createAndAddPointcutDefToAspectDef(java.lang.String, java.lang.String, org.codehaus.aspectwerkz.definition.AspectDefinition)</cmethod>

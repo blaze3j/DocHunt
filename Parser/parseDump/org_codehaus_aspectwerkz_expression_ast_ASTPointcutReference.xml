@@ -1,0 +1,4 @@
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cfield>name</cfield>
+<cmethod>getName()</cmethod>

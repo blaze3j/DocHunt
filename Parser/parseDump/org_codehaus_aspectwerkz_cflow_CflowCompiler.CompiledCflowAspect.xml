@@ -1,0 +1,4 @@
+<cfield>className</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cfield>bytecode</cfield>

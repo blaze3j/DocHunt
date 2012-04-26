@@ -1,0 +1,4 @@
+<cfield>MATCH_ON_BASE_TYPE_METHODS_ONLY</cfield>
+<cfield>NOT_HIERARCHICAL</cfield>
+<cfield>MATCH_ON_ALL_METHODS</cfield>
+<cmethod>toString()</cmethod>

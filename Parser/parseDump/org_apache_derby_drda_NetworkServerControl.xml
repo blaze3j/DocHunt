@@ -1,0 +1,17 @@
+<cmethod>trace(int, boolean)</cmethod>
+<cmethod>start(java.io.PrintWriter)</cmethod>
+<cmethod>getTimeSlice()</cmethod>
+<cmethod>trace(boolean)</cmethod>
+<cmethod>setClientLocale(java.lang.String)</cmethod>
+<cmethod>setMaxThreads(int)</cmethod>
+<cmethod>setTimeSlice(int)</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>shutdown()</cmethod>
+<cmethod>logConnections(boolean)</cmethod>
+<cmethod>getRuntimeInfo()</cmethod>
+<cfield>DEFAULT_PORTNUMBER</cfield>
+<cmethod>getCurrentProperties()</cmethod>
+<cmethod>getSysinfo()</cmethod>
+<cmethod>getMaxThreads()</cmethod>
+<cmethod>setTraceDirectory(java.lang.String)</cmethod>
+<cmethod>ping()</cmethod>

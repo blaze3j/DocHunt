@@ -1,0 +1,12 @@
+<cmethod>fakeStackTrace(java.lang.Throwable, java.lang.String)</cmethod>
+<cmethod>booleanValueOf(boolean)</cmethod>
+<cfield>DOUBLE_DEFAULT_VALUE</cfield>
+<cfield>LONG_DEFAULT_VALUE</cfield>
+<cfield>CHARACTER_DEFAULT_VALUE</cfield>
+<cfield>INTEGER_DEFAULT_VALUE</cfield>
+<cfield>BYTE_DEFAULT_VALUE</cfield>
+<cmethod>calculateHash(java.lang.String, org.codehaus.aspectwerkz.reflect.ReflectionInfo)</cmethod>
+<cmethod>classLoaderToString(java.lang.ClassLoader)</cmethod>
+<cfield>SHORT_DEFAULT_VALUE</cfield>
+<cfield>BOOLEAN_DEFAULT_VALUE</cfield>
+<cfield>FLOAT_DEFAULT_VALUE</cfield>

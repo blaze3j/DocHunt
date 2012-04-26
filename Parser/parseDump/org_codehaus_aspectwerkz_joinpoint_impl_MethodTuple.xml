@@ -1,0 +1,5 @@
+<cmethod>isWrapped()</cmethod>
+<cmethod>getWrapperMethod()</cmethod>
+<cmethod>getOriginalMethod()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getDeclaringClass()</cmethod>

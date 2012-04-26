@@ -1,0 +1,9 @@
+<cmethod>getAction()</cmethod>
+<cmethod>getSourceComponentY()</cmethod>
+<cmethod>getSourceX()</cmethod>
+<cmethod>getSourceComponentX()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getSourceComponent()</cmethod>
+<cmethod>getSourceY()</cmethod>

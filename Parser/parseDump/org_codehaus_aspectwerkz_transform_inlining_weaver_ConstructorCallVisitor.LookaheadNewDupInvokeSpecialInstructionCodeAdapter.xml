@@ -1,0 +1,2 @@
+<cmethod>visitTypeInsn(int, java.lang.String)</cmethod>
+<cmethod>visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String)</cmethod>

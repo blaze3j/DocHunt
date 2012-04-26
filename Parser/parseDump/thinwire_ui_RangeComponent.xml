@@ -1,0 +1,6 @@
+<cfield>PROPERTY_CURRENT_INDEX</cfield>
+<cmethod>setCurrentIndex(int)</cmethod>
+<cfield>PROPERTY_LENGTH</cfield>
+<cmethod>setLength(int)</cmethod>
+<cmethod>getLength()</cmethod>
+<cmethod>getCurrentIndex()</cmethod>

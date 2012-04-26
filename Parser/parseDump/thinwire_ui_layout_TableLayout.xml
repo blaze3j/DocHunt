@@ -1,0 +1,10 @@
+<cmethod>limitChanged(thinwire.ui.Component, java.lang.Object)</cmethod>
+<cmethod>getRows()</cmethod>
+<cmethod>getColumns()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getVisibleRows()</cmethod>
+<cmethod>getFormalLimit(thinwire.ui.Component)</cmethod>
+<cmethod>update()</cmethod>
+<cmethod>addComponent(thinwire.ui.Component)</cmethod>
+<cmethod>getVisibleColumns()</cmethod>
+<cmethod>removeComponent(thinwire.ui.Component)</cmethod>

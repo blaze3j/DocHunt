@@ -1,0 +1,4 @@
+<cmethod>setText(java.lang.String)</cmethod>
+<cmethod>getText()</cmethod>
+<cfield>PROPERTY_HEADER_TEXT</cfield>
+<cmethod>toString()</cmethod>

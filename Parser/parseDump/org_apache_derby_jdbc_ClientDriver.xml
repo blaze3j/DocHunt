@@ -1,0 +1,8 @@
+<cmethod>jdbcCompliant()</cmethod>
+<cmethod>getFactory()</cmethod>
+<cmethod>registerMe(org.apache.derby.jdbc.ClientDriver)</cmethod>
+<cmethod>acceptsURL(java.lang.String)</cmethod>
+<cmethod>connect(java.lang.String, java.util.Properties)</cmethod>
+<cmethod>getPropertyInfo(java.lang.String, java.util.Properties)</cmethod>
+<cmethod>getMajorVersion()</cmethod>
+<cmethod>getMinorVersion()</cmethod>

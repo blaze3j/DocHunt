@@ -1,0 +1,8 @@
+<cmethod>createSignature(org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>createGetRttiMethod()</cmethod>
+<cmethod>createJoinPointInvocation(org.objectweb.asm.CodeVisitor)</cmethod>
+<cmethod>createJoinPointSpecificFields()</cmethod>
+<cmethod>createInlinedJoinPointInvocation(org.objectweb.asm.CodeVisitor, boolean, int, int)</cmethod>
+<cmethod>getJoinPointArgumentTypes()</cmethod>
+<cmethod>createGetSignatureMethod()</cmethod>
+<cmethod>getJoinPointReturnType()</cmethod>

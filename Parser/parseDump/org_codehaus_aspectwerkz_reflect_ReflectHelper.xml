@@ -1,0 +1,10 @@
+<cmethod>calculateHash(java.lang.reflect.Constructor)</cmethod>
+<cmethod>getPrimitiveClass(java.lang.String)</cmethod>
+<cmethod>getModifiersAsInt(java.lang.String[])</cmethod>
+<cmethod>getFieldSignature(java.lang.reflect.Field)</cmethod>
+<cmethod>calculateHash(java.lang.reflect.Field)</cmethod>
+<cmethod>getConstructorSignature(java.lang.reflect.Constructor)</cmethod>
+<cmethod>calculateHash(java.lang.Class)</cmethod>
+<cmethod>calculateHash(java.lang.reflect.Method)</cmethod>
+<cmethod>getClassSignature(java.lang.Class)</cmethod>
+<cmethod>getMethodSignature(java.lang.reflect.Method)</cmethod>

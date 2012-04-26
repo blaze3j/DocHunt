@@ -1,0 +1,7 @@
+<cmethod>add_escapes(java.lang.String)</cmethod>
+<cfield>currentToken</cfield>
+<cmethod>getMessage()</cmethod>
+<cfield>expectedTokenSequences</cfield>
+<cfield>eol</cfield>
+<cfield>specialConstructor</cfield>
+<cfield>tokenImage</cfield>

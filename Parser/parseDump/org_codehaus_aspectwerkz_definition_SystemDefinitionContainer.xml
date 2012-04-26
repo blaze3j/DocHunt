@@ -1,0 +1,14 @@
+<cfield>s_classLoaderSystemDefinitions</cfield>
+<cfield>WEB_WEB_INF_XML_FILE</cfield>
+<cfield>URL_JVM_OPTION_SYSTEM</cfield>
+<cmethod>deployDefinitions(java.lang.ClassLoader, java.util.Set)</cmethod>
+<cfield>s_classLoaderHierarchicalSystemDefinitions</cfield>
+<cmethod>getDefinitionFor(java.lang.ClassLoader, java.lang.String)</cmethod>
+<cmethod>getVirtualDefinitionAt(java.lang.ClassLoader)</cmethod>
+<cfield>AOP_META_INF_XML_FILE</cfield>
+<cmethod>getVirtualDefinitionUuid(java.lang.ClassLoader)</cmethod>
+<cfield>AOP_WEB_INF_XML_FILE</cfield>
+<cmethod>getDefinitionsFor(java.lang.ClassLoader)</cmethod>
+<cfield>s_classLoaderDefinitionLocations</cfield>
+<cmethod>disableSystemWideDefinition()</cmethod>
+<cmethod>getDefinitionsAt(java.lang.ClassLoader)</cmethod>

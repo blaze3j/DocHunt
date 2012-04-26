@@ -1,0 +1,18 @@
+<cfield>STATIC_INITIALIZATION</cfield>
+<cfield>METHOD_CALL</cfield>
+<cmethod>getType()</cmethod>
+<cmethod>getCallerClass()</cmethod>
+<cfield>CONSTRUCTOR_EXECUTION</cfield>
+<cmethod>getTargetClass()</cmethod>
+<cmethod>getEnclosingStaticJoinPoint()</cmethod>
+<cmethod>getMetaData(java.lang.Object)</cmethod>
+<cmethod>getSignature()</cmethod>
+<cfield>FIELD_GET</cfield>
+<cfield>HANDLER</cfield>
+<cmethod>addMetaData(java.lang.Object, java.lang.Object)</cmethod>
+<cfield>CONSTRUCTOR_CALL</cfield>
+<cfield>METHOD_EXECUTION</cfield>
+<cmethod>getCalleeClass()</cmethod>
+<cfield>FIELD_SET</cfield>
+<cmethod>proceed()</cmethod>
+<cmethod>copy()</cmethod>

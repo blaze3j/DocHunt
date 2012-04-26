@@ -1,0 +1,5 @@
+<cmethod>detectJava()</cmethod>
+<cmethod>show()</cmethod>
+<cmethod>usage()</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>detectJVM()</cmethod>

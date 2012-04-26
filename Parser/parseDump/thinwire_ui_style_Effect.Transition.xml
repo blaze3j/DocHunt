@@ -1,0 +1,8 @@
+<cfield>LINEAR</cfield>
+<cfield>WOBBLE</cfield>
+<cfield>FLICKER</cfield>
+<cfield>SMOOTH</cfield>
+<cmethod>apply(double)</cmethod>
+<cfield>PULSE</cfield>
+<cmethod>valueOf(java.lang.String)</cmethod>
+<ccons>Effect.Transition()</ccons>

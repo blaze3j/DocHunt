@@ -1,0 +1,11 @@
+<cmethod>createServerProxy(java.lang.Object, java.lang.String, int)</cmethod>
+<cmethod>getInstance()</cmethod>
+<cmethod>createClientProxy(java.lang.String[], java.lang.String, java.lang.String, int, java.lang.Object, java.lang.ClassLoader)</cmethod>
+<cmethod>getWrappedInstance(java.lang.String)</cmethod>
+<cmethod>createClientProxy(java.lang.String[], java.lang.String, java.lang.String, int, java.lang.Object)</cmethod>
+<cmethod>wrapInstance(java.lang.Object)</cmethod>
+<cmethod>invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])</cmethod>
+<cmethod>createClientProxy(java.lang.String[], java.lang.String, java.lang.String, int)</cmethod>
+<cmethod>close()</cmethod>
+<cmethod>createClientProxy(java.lang.String[], java.lang.String, java.lang.String, int, java.lang.ClassLoader)</cmethod>
+<cmethod>getInstance(java.lang.ClassLoader)</cmethod>

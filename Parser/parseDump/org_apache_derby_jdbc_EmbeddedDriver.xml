@@ -1,0 +1,6 @@
+<cmethod>jdbcCompliant()</cmethod>
+<cmethod>acceptsURL(java.lang.String)</cmethod>
+<cmethod>connect(java.lang.String, java.util.Properties)</cmethod>
+<cmethod>getPropertyInfo(java.lang.String, java.util.Properties)</cmethod>
+<cmethod>getMajorVersion()</cmethod>
+<cmethod>getMinorVersion()</cmethod>

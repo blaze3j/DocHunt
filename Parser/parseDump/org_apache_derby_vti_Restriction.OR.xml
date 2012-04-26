@@ -1,0 +1,4 @@
+<cmethod>getLeftChild()</cmethod>
+<cmethod>getRightChild()</cmethod>
+<cfield>serialVersionUID</cfield>
+<cmethod>toSQL()</cmethod>

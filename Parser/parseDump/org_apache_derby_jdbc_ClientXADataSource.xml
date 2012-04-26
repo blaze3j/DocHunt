@@ -1,0 +1,3 @@
+<cfield>className__</cfield>
+<cmethod>getXAConnection()</cmethod>
+<cmethod>getXAConnection(java.lang.String, java.lang.String)</cmethod>

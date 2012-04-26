@@ -1,0 +1,7 @@
+<cmethod>getAfterFinallyAdviceInfos()</cmethod>
+<cmethod>getAfterThrowingAdviceInfos()</cmethod>
+<cmethod>getAroundAdviceInfos()</cmethod>
+<cmethod>getBeforeAdviceInfos()</cmethod>
+<cmethod>getAfterReturningAdviceInfos()</cmethod>
+<cmethod>getAllAdviceInfos()</cmethod>
+<cfield>NULL</cfield>

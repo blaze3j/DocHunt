@@ -1,0 +1,10 @@
+<cmethod>isCanceled()</cmethod>
+<cmethod>getException()</cmethod>
+<cmethod>getDefaultMessage()</cmethod>
+<cmethod>cancel(boolean, boolean)</cmethod>
+<cmethod>isSuppressLogging()</cmethod>
+<cmethod>setDefaultMessage(java.lang.String)</cmethod>
+<cmethod>isStopPropagation()</cmethod>
+<cmethod>getStackTraceText()</cmethod>
+<cmethod>cancel()</cmethod>
+<cmethod>cancel(boolean)</cmethod>

@@ -1,0 +1,8 @@
+<cmethod>isCflowClass(java.lang.String)</cmethod>
+<cfield>IN_CFLOW_METOD_SIGNATURE</cfield>
+<cmethod>compileCflowAspectAndAttachToClassLoader(java.lang.ClassLoader, int)</cmethod>
+<cmethod>compileCflowAspect(int)</cmethod>
+<cfield>IN_CFLOW_METOD_NAME</cfield>
+<cmethod>getCflowAspectClassName(int)</cmethod>
+<cfield>CFLOW_ASPECTOF_METHOD_NAME</cfield>
+<cfield>JIT_CFLOW_CLASS</cfield>

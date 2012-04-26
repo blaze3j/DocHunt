@@ -1,0 +1,13 @@
+<cmethod>aspectOf(java.lang.String, java.lang.Class)</cmethod>
+<cfield>DEFAULT_ASPECT_CONTAINER</cfield>
+<cmethod>getAspectQNameContainerClassName(java.lang.ClassLoader, java.lang.String)</cmethod>
+<cmethod>getContainerQNamed(java.lang.ClassLoader, java.lang.Class, java.lang.String)</cmethod>
+<cmethod>aspectOf(java.lang.Class)</cmethod>
+<cmethod>aspect$Of(java.lang.String, java.lang.String, java.lang.Object)</cmethod>
+<cmethod>aspectOf(java.lang.ClassLoader, java.lang.String)</cmethod>
+<cmethod>aspectOf(java.lang.Class, java.lang.Class)</cmethod>
+<cmethod>aspect$Of(java.lang.String, java.lang.String, java.lang.Class)</cmethod>
+<cmethod>aspectOf(java.lang.Class, java.lang.Object)</cmethod>
+<cmethod>aspect$Of(java.lang.ClassLoader, java.lang.String, java.lang.String)</cmethod>
+<cmethod>aspectOf(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>aspectOf(java.lang.String)</cmethod>

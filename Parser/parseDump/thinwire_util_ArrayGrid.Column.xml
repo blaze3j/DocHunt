@@ -1,0 +1,9 @@
+<cmethod>remove(int)</cmethod>
+<cmethod>get(int)</cmethod>
+<cmethod>getParent()</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>add(int, java.lang.Object)</cmethod>
+<cmethod>set(int, java.lang.Object)</cmethod>
+<cmethod>getIndex()</cmethod>
+<cmethod>size()</cmethod>

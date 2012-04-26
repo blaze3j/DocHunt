@@ -1,0 +1,3 @@
+<cmethod>info(java.util.Map)</cmethod>
+<cmethod>hotswap(java.util.Map)</cmethod>
+<cmethod>resume(java.util.Map)</cmethod>

@@ -1,0 +1,6 @@
+<cmethod>write(byte[], int, int)</cmethod>
+<cmethod>resumeEncoding()</cmethod>
+<cmethod>flushBase64()</cmethod>
+<cmethod>close()</cmethod>
+<cmethod>suspendEncoding()</cmethod>
+<cmethod>write(int)</cmethod>

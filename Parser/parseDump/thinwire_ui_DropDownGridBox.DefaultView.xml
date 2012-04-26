@@ -1,0 +1,10 @@
+<cmethod>getDelimiter()</cmethod>
+<cmethod>setColumnIndex(int)</cmethod>
+<cmethod>getDropDown()</cmethod>
+<cmethod>init(thinwire.ui.DropDown, thinwire.ui.GridBox)</cmethod>
+<cmethod>getOptimalWidth()</cmethod>
+<cmethod>setValue(java.lang.Object)</cmethod>
+<cmethod>getValue()</cmethod>
+<cmethod>getColumnIndex()</cmethod>
+<cmethod>setDelimiter(java.lang.String)</cmethod>
+<cmethod>getOptimalHeight()</cmethod>

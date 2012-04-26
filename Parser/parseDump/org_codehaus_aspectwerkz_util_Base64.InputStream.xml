@@ -1,0 +1,2 @@
+<cmethod>read()</cmethod>
+<cmethod>read(byte[], int, int)</cmethod>

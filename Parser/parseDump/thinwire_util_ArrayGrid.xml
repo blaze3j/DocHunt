@@ -1,0 +1,6 @@
+<ccons>ArrayGrid(thinwire.util.Grid, java.lang.Class, java.lang.Class)</ccons>
+<cmethod>getColumns()</cmethod>
+<cmethod>fireItemChange(thinwire.ui.event.ItemChangeEvent.Type, int, int, java.lang.Object, java.lang.Object)</cmethod>
+<ccons>ArrayGrid()</ccons>
+<cmethod>getRows()</cmethod>
+<ccons>ArrayGrid(thinwire.util.Grid)</ccons>

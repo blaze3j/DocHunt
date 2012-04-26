@@ -1,0 +1,6 @@
+<cmethod>setComponent(T)</cmethod>
+<cfield>dd</cfield>
+<cmethod>getOptimalWidth()</cmethod>
+<cmethod>init(thinwire.ui.DropDown, T)</cmethod>
+<cmethod>addCloseComponent(thinwire.ui.Component)</cmethod>
+<cfield>ddc</cfield>

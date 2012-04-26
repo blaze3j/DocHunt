@@ -1,0 +1,7 @@
+<cmethod>visitEnd()</cmethod>
+<cmethod>visitField(int, java.lang.String, java.lang.String, java.lang.Object, org.objectweb.asm.Attribute)</cmethod>
+<cmethod>visitAttribute(org.objectweb.asm.Attribute)</cmethod>
+<cmethod>visitMethod(int, java.lang.String, java.lang.String, java.lang.String[], org.objectweb.asm.Attribute)</cmethod>
+<cfield>NULL_CLASS_ADAPTER</cfield>
+<cmethod>visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int)</cmethod>
+<cmethod>visit(int, int, java.lang.String, java.lang.String, java.lang.String[], java.lang.String)</cmethod>

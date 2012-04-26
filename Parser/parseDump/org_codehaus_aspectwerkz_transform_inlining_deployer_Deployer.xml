@@ -1,0 +1,16 @@
+<cmethod>undeploy(java.lang.Class)</cmethod>
+<cmethod>undeploy(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.Class, java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.Class, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.String, org.codehaus.aspectwerkz.definition.DeploymentScope)</cmethod>
+<cmethod>deploy(java.lang.Class, org.codehaus.aspectwerkz.definition.DeploymentScope)</cmethod>
+<cmethod>deploy(java.lang.Class, java.lang.String, org.codehaus.aspectwerkz.definition.DeploymentScope, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.String)</cmethod>
+<cmethod>deploy(java.lang.Class, java.lang.String, org.codehaus.aspectwerkz.definition.DeploymentScope)</cmethod>
+<cmethod>deploy(java.lang.Class, org.codehaus.aspectwerkz.definition.DeploymentScope, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.String, org.codehaus.aspectwerkz.definition.DeploymentScope, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.Class, java.lang.String)</cmethod>
+<cmethod>undeploy(org.codehaus.aspectwerkz.transform.inlining.deployer.DeploymentHandle)</cmethod>
+<cmethod>undeploy(java.lang.Class, java.lang.ClassLoader)</cmethod>
+<cmethod>deploy(java.lang.Class)</cmethod>

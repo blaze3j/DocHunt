@@ -1,0 +1,7 @@
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTArgs, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTPointcutReference, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTArgParameter, java.lang.Object)</cmethod>
+<cmethod>updateContextForRuntimeInformation(org.codehaus.aspectwerkz.expression.ExpressionInfo, org.codehaus.aspectwerkz.expression.ExpressionContext, java.lang.ClassLoader)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTThis, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTTarget, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.expression.ast.ASTCflow, java.lang.Object)</cmethod>

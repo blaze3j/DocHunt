@@ -1,0 +1,4 @@
+<cmethod>mergeDocuments(org.dom4j.Document, org.dom4j.Document)</cmethod>
+<cmethod>createDocument(java.lang.String)</cmethod>
+<cmethod>createDocument(java.net.URL)</cmethod>
+<cmethod>parseNoCache(java.lang.ClassLoader, java.net.URL)</cmethod>

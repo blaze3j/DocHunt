@@ -1,0 +1,19 @@
+<cfield>NULL_CODE_ADAPTER</cfield>
+<cmethod>visitIincInsn(int, int)</cmethod>
+<cmethod>visitIntInsn(int, int)</cmethod>
+<cmethod>visitMethodInsn(int, java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>visitLocalVariable(java.lang.String, java.lang.String, org.objectweb.asm.Label, org.objectweb.asm.Label, int)</cmethod>
+<cmethod>visitTryCatchBlock(org.objectweb.asm.Label, org.objectweb.asm.Label, org.objectweb.asm.Label, java.lang.String)</cmethod>
+<cmethod>visitAttribute(org.objectweb.asm.Attribute)</cmethod>
+<cmethod>visitMaxs(int, int)</cmethod>
+<cmethod>visitLabel(org.objectweb.asm.Label)</cmethod>
+<cmethod>visitLineNumber(int, org.objectweb.asm.Label)</cmethod>
+<cmethod>visitTypeInsn(int, java.lang.String)</cmethod>
+<cmethod>visitFieldInsn(int, java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>visitTableSwitchInsn(int, int, org.objectweb.asm.Label, org.objectweb.asm.Label[])</cmethod>
+<cmethod>visitMultiANewArrayInsn(java.lang.String, int)</cmethod>
+<cmethod>visitInsn(int)</cmethod>
+<cmethod>visitLookupSwitchInsn(org.objectweb.asm.Label, int[], org.objectweb.asm.Label[])</cmethod>
+<cmethod>visitVarInsn(int, int)</cmethod>
+<cmethod>visitJumpInsn(int, org.objectweb.asm.Label)</cmethod>
+<cmethod>visitLdcInsn(java.lang.Object)</cmethod>

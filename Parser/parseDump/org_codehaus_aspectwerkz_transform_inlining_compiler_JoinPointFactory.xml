@@ -1,0 +1,7 @@
+<cmethod>attachToClassLoader(java.lang.String, java.lang.ClassLoader, byte[])</cmethod>
+<cmethod>addCompilationInfo(java.lang.Class, org.codehaus.aspectwerkz.transform.inlining.compiler.CompilationInfo)</cmethod>
+<cmethod>compileJoinPointAndAttachToClassLoader(org.codehaus.aspectwerkz.transform.inlining.compiler.CompilationInfo.Model, java.lang.ClassLoader)</cmethod>
+<cmethod>getEmittedJoinPoint(java.lang.Class)</cmethod>
+<cmethod>compileJoinPoint(org.codehaus.aspectwerkz.transform.inlining.compiler.CompilationInfo.Model)</cmethod>
+<cmethod>getJoinPointsMatching(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>redefineJoinPoint(org.codehaus.aspectwerkz.transform.inlining.compiler.CompilationInfo)</cmethod>

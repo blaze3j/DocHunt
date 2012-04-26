@@ -1,0 +1,17 @@
+<cmethod>getExpressionInfos()</cmethod>
+<cmethod>setDeploymentModel(org.codehaus.aspectwerkz.DeploymentModel)</cmethod>
+<cmethod>isTransient()</cmethod>
+<cmethod>addExpressionInfo(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>setFactoryClassName(java.lang.String)</cmethod>
+<cmethod>getInterfaceClassNames()</cmethod>
+<cmethod>getMethodsToIntroduce()</cmethod>
+<cmethod>getAttribute()</cmethod>
+<cmethod>getParameters()</cmethod>
+<cmethod>addExpressionInfos(org.codehaus.aspectwerkz.expression.ExpressionInfo[])</cmethod>
+<cmethod>getMixinImpl()</cmethod>
+<cmethod>getDeploymentModel()</cmethod>
+<cmethod>setTransient(boolean)</cmethod>
+<cmethod>getFactoryClassName()</cmethod>
+<cmethod>getSystemDefinition()</cmethod>
+<cmethod>setAttribute(java.lang.String)</cmethod>
+<cmethod>addParameter(java.lang.String, java.lang.String)</cmethod>

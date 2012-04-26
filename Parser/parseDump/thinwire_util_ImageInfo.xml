@@ -1,0 +1,7 @@
+<cmethod>getWidth()</cmethod>
+<cmethod>getFormat()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getHeight()</cmethod>

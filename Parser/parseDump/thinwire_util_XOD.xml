@@ -1,0 +1,7 @@
+<cmethod>getObjects()</cmethod>
+<cmethod>getPropertyMap()</cmethod>
+<cmethod>getObjectId(java.lang.Object)</cmethod>
+<cmethod>getAliasMap()</cmethod>
+<cmethod>execute(java.lang.String)</cmethod>
+<cmethod>getRootObjects()</cmethod>
+<cmethod>getObjectMap()</cmethod>

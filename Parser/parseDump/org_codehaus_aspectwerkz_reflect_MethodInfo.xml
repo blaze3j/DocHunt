@@ -1,0 +1,4 @@
+<cmethod>getReturnType()</cmethod>
+<cmethod>getParameterNames()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cmethod>getExceptionTypes()</cmethod>

@@ -1,0 +1,7 @@
+<cmethod>printStackTrace(java.io.PrintWriter)</cmethod>
+<cmethod>getLocalizedMessage()</cmethod>
+<cmethod>getMessage()</cmethod>
+<cmethod>printStackTrace()</cmethod>
+<cmethod>printStackTrace(java.io.PrintStream)</cmethod>
+<cmethod>getCause()</cmethod>
+<cmethod>toString()</cmethod>

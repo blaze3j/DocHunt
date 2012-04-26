@@ -1,0 +1,3 @@
+<cmethod>setFullNamePattern(java.lang.String)</cmethod>
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>getDeclaringTypePattern()</cmethod>

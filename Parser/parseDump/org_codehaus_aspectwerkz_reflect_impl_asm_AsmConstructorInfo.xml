@@ -1,0 +1,8 @@
+<cmethod>getConstructorInfo(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>getExceptionTypes()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getAnnotations()</cmethod>

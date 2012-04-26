@@ -1,0 +1,3 @@
+<cmethod>init(javax.servlet.ServletConfig)</cmethod>
+<cmethod>doGet(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)</cmethod>
+<cmethod>doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)</cmethod>

@@ -1,0 +1,4 @@
+<cmethod>stopManagement()</cmethod>
+<cmethod>isManagementActive()</cmethod>
+<cmethod>startManagement()</cmethod>
+<cmethod>getSystemIdentifier()</cmethod>

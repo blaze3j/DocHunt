@@ -1,0 +1,6 @@
+<cmethod>parse(java.lang.String)</cmethod>
+<cmethod>getAllClassNames()</cmethod>
+<cmethod>getJavaFields()</cmethod>
+<cmethod>getJavaMethodParametersAsStringArray(com.thoughtworks.qdox.model.JavaMethod)</cmethod>
+<cmethod>getJavaClass()</cmethod>
+<cmethod>getJavaMethods()</cmethod>

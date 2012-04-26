@@ -1,0 +1,6 @@
+<cmethod>newStaticInitializationSignature(java.lang.Class)</cmethod>
+<cmethod>newCatchClauseSignature(java.lang.Class)</cmethod>
+<cmethod>newMethodSignature(java.lang.Class, int)</cmethod>
+<cmethod>newEnclosingStaticJoinPoint(java.lang.Class, java.lang.String, java.lang.String)</cmethod>
+<cmethod>newFieldSignature(java.lang.Class, int)</cmethod>
+<cmethod>newConstructorSignature(java.lang.Class, int)</cmethod>

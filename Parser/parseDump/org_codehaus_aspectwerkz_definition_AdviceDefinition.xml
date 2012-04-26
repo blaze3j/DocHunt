@@ -1,0 +1,19 @@
+<cmethod>getQualifiedName()</cmethod>
+<cmethod>getMethodInfo()</cmethod>
+<cmethod>getAspectName()</cmethod>
+<cmethod>getType()</cmethod>
+<cmethod>getSpecialArgumentType()</cmethod>
+<cmethod>hasCflowOrCflowBelow()</cmethod>
+<cmethod>getAspectClassName()</cmethod>
+<cmethod>getAttribute()</cmethod>
+<cmethod>setName(java.lang.String)</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>setExpressionInfo(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>copyAt(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>getDeploymentModel()</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getAspectDefinition()</cmethod>
+<cmethod>newInstance(java.lang.String, org.codehaus.aspectwerkz.aspect.AdviceType, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.codehaus.aspectwerkz.reflect.MethodInfo, org.codehaus.aspectwerkz.definition.AspectDefinition)</cmethod>
+<cmethod>setAttribute(java.lang.String)</cmethod>
+<cmethod>getExpressionInfo()</cmethod>

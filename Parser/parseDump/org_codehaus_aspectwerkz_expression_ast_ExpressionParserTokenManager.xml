@@ -1,0 +1,12 @@
+<cfield>jjnewLexState</cfield>
+<cfield>debugStream</cfield>
+<cmethod>SwitchTo(int)</cmethod>
+<cfield>jjstrLiteralImages</cfield>
+<cmethod>setDebugStream(java.io.PrintStream)</cmethod>
+<cmethod>ReInit(org.codehaus.aspectwerkz.expression.ast.SimpleCharStream, int)</cmethod>
+<cfield>lexStateNames</cfield>
+<cmethod>getNextToken()</cmethod>
+<cmethod>jjFillToken()</cmethod>
+<cfield>input_stream</cfield>
+<cmethod>ReInit(org.codehaus.aspectwerkz.expression.ast.SimpleCharStream)</cmethod>
+<cfield>curChar</cfield>

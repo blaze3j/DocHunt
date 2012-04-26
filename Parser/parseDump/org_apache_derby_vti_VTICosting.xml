@@ -1,0 +1,5 @@
+<cfield>defaultEstimatedCost</cfield>
+<cfield>defaultEstimatedRowCount</cfield>
+<cmethod>getEstimatedCostPerInstantiation(org.apache.derby.vti.VTIEnvironment)</cmethod>
+<cmethod>getEstimatedRowCount(org.apache.derby.vti.VTIEnvironment)</cmethod>
+<cmethod>supportsMultipleInstantiations(org.apache.derby.vti.VTIEnvironment)</cmethod>

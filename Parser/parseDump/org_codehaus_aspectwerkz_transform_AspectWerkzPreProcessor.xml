@@ -1,0 +1,10 @@
+<cmethod>log(java.lang.String)</cmethod>
+<cfield>VERBOSE</cfield>
+<cmethod>preProcessWithOutput(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>_preProcess(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cfield>DETAILS</cfield>
+<cmethod>dumpAfter(java.lang.String, org.codehaus.aspectwerkz.transform.Context)</cmethod>
+<cmethod>initialize()</cmethod>
+<cmethod>preProcess(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>dumpBefore(java.lang.String, org.codehaus.aspectwerkz.transform.Context)</cmethod>
+<cfield>GENJP</cfield>

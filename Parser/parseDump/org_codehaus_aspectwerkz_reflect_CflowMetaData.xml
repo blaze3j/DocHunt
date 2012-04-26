@@ -1,0 +1,8 @@
+<cmethod>getMethodInfo()</cmethod>
+<cmethod>getClassName()</cmethod>
+<cmethod>getClassInfo()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>hashCodeOrZeroIfNull(java.lang.Object)</cmethod>
+<cmethod>areEqualsOrBothNull(java.lang.Object, java.lang.Object)</cmethod>

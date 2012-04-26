@@ -1,0 +1,11 @@
+<cmethod>createAroundAdviceArgumentHandling(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo)</cmethod>
+<cmethod>createMandatoryMethods(org.objectweb.asm.ClassWriter, java.lang.String)</cmethod>
+<cmethod>createAspectReferenceField(org.objectweb.asm.ClassWriter, org.codehaus.aspectwerkz.transform.inlining.AspectInfo, java.lang.String)</cmethod>
+<cmethod>requiresReflectiveInfo()</cmethod>
+<cmethod>createBeforeAdviceArgumentHandling(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo)</cmethod>
+<cmethod>defineAspect(org.codehaus.aspectwerkz.reflect.ClassInfo, org.codehaus.aspectwerkz.definition.AspectDefinition, java.lang.ClassLoader)</cmethod>
+<cmethod>getAspectModelType()</cmethod>
+<cmethod>getAroundClosureClassInfo()</cmethod>
+<cmethod>createAfterAdviceArgumentHandling(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.transform.inlining.AdviceMethodInfo)</cmethod>
+<cmethod>createAspectInstantiation(org.objectweb.asm.CodeVisitor, org.codehaus.aspectwerkz.transform.inlining.AspectInfo, java.lang.String)</cmethod>
+<cmethod>createInvocationOfAroundClosureSuperClass(org.objectweb.asm.CodeVisitor)</cmethod>

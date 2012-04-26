@@ -1,0 +1,12 @@
+<cmethod>getExceptionTypes()</cmethod>
+<cmethod>getMethodInfo(java.lang.String, java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>getParameterNames()</cmethod>
+<cmethod>getParameterTypes()</cmethod>
+<cfield>m_parameterNames</cfield>
+<cmethod>pushParameterNameFromRegister(int, java.lang.String)</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getReturnType()</cmethod>
+<cmethod>getAnnotations()</cmethod>

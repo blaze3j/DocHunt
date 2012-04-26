@@ -1,0 +1,21 @@
+<cmethod>limitChanged(thinwire.ui.Component, java.lang.Object)</cmethod>
+<cmethod>setContainer(thinwire.ui.Container)</cmethod>
+<cmethod>getMargin()</cmethod>
+<cfield>container</cfield>
+<cmethod>getContainer()</cmethod>
+<cmethod>setMargin(int)</cmethod>
+<cmethod>update()</cmethod>
+<cfield>autoLayoutProps</cfield>
+<cfield>spacing</cfield>
+<cmethod>setSpacing(int)</cmethod>
+<cmethod>isAutoApply()</cmethod>
+<cmethod>getSpacing()</cmethod>
+<cfield>autoLayout</cfield>
+<ccons>AbstractLayout(java.lang.String...)</ccons>
+<cfield>limitLayout</cfield>
+<cmethod>getFormalLimit(thinwire.ui.Component)</cmethod>
+<cmethod>apply()</cmethod>
+<cmethod>addComponent(thinwire.ui.Component)</cmethod>
+<cfield>margin</cfield>
+<cmethod>setAutoApply(boolean)</cmethod>
+<cmethod>removeComponent(thinwire.ui.Component)</cmethod>

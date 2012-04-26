@@ -1,0 +1,9 @@
+<cmethod>matches(java.lang.String)</cmethod>
+<cfield>m_pattern</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getPattern()</cmethod>
+<cmethod>hashCodeOrZeroIfNull(java.lang.Object)</cmethod>
+<cmethod>areEqualsOrBothNull(java.lang.Object, java.lang.Object)</cmethod>
+<cfield>m_namePattern</cfield>
+<cmethod>escape(java.lang.String)</cmethod>

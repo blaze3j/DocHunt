@@ -1,0 +1,14 @@
+<cmethod>getSourceComponentY()</cmethod>
+<cmethod>getDragComponent()</cmethod>
+<cmethod>getSourceX()</cmethod>
+<cmethod>getSourceY()</cmethod>
+<cmethod>getSourceComponentX()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getDragY()</cmethod>
+<cmethod>getDragComponentX()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getDragComponentY()</cmethod>
+<cmethod>getSourceComponent()</cmethod>
+<cmethod>getDragObject()</cmethod>
+<cmethod>getDragX()</cmethod>

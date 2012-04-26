@@ -1,0 +1,34 @@
+<cmethod>getColumn()</cmethod>
+<cmethod>ReInit(java.io.InputStream, int, int, int)</cmethod>
+<cmethod>GetSuffix(int)</cmethod>
+<cfield>bufpos</cfield>
+<cmethod>ReInit(java.io.InputStream)</cmethod>
+<cmethod>GetImage()</cmethod>
+<cmethod>getLine()</cmethod>
+<cfield>bufline</cfield>
+<cmethod>readChar()</cmethod>
+<cfield>prevCharIsCR</cfield>
+<cmethod>getBeginColumn()</cmethod>
+<cmethod>BeginToken()</cmethod>
+<cfield>bufcolumn</cfield>
+<cmethod>ReInit(java.io.Reader, int, int, int)</cmethod>
+<cmethod>Done()</cmethod>
+<cfield>buffer</cfield>
+<cmethod>UpdateLineColumn(char)</cmethod>
+<cmethod>ReInit(java.io.Reader, int, int)</cmethod>
+<cfield>staticFlag</cfield>
+<cmethod>ReInit(java.io.InputStream, int, int)</cmethod>
+<cmethod>backup(int)</cmethod>
+<cfield>line</cfield>
+<cmethod>FillBuff()</cmethod>
+<cmethod>ReInit(java.io.Reader)</cmethod>
+<cfield>inBuf</cfield>
+<cfield>column</cfield>
+<cmethod>getEndLine()</cmethod>
+<cfield>maxNextCharInd</cfield>
+<cfield>inputStream</cfield>
+<cfield>prevCharIsLF</cfield>
+<cmethod>getBeginLine()</cmethod>
+<cmethod>adjustBeginLineColumn(int, int)</cmethod>
+<cmethod>ExpandBuff(boolean)</cmethod>
+<cmethod>getEndColumn()</cmethod>

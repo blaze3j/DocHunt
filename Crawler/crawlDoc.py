@@ -32,7 +32,9 @@ def getRelatedText(page):
 
 destination = sys.argv[1]
 parseDict = {'http://db.apache.org/derby/javadoc/publishedapi/jdbc3/':'derby',
-             'http://www.thinwire.com/api/':'thinwire/'}
+             'http://www.thinwire.com/api/':'thinwire/',
+             'http://aspectwerkz.codehaus.org/apidocs/':'aspect'}
+#parseDict = {'http://db.apache.org/derby/javadoc/publishedapi/jdbc3/':'derby'}
 
 for page in parseDict.keys():
     links = getClassHierarchyLinks(page, parseDict[page])

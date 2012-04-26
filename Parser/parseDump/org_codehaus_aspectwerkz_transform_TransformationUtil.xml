@@ -1,0 +1,10 @@
+<cmethod>getInvokeSignatureForHandlerJoinPoints(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getInvokeSignatureForConstructorCallJoinPoints(java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>getJoinPointClassName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int)</cmethod>
+<cmethod>getPrefixedOriginalMethodName(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getConstructorBodyMethodName(java.lang.String)</cmethod>
+<cmethod>getInvokeSignatureForFieldJoinPoints(int, java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>getConstructorBodyMethodSignature(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getWrapperMethodName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>getPrefixedOriginalClinitName(java.lang.String)</cmethod>
+<cmethod>getInvokeSignatureForCodeJoinPoints(int, java.lang.String, java.lang.String, java.lang.String)</cmethod>

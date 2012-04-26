@@ -1,0 +1,6 @@
+<cmethod>setFullNamePattern(java.lang.String)</cmethod>
+<cmethod>jjtAccept(org.codehaus.aspectwerkz.expression.ast.ExpressionParserVisitor, java.lang.Object)</cmethod>
+<cmethod>setFieldTypePattern(java.lang.String)</cmethod>
+<cmethod>getFieldTypePattern()</cmethod>
+<cmethod>getFieldNamePattern()</cmethod>
+<cmethod>getDeclaringTypePattern()</cmethod>

@@ -1,0 +1,2 @@
+<cmethod>getAnnotationInfo(org.objectweb.asm.attrs.Annotation, java.lang.ClassLoader)</cmethod>
+<cmethod>extractAnnotations(java.util.List, org.objectweb.asm.Attribute, java.lang.ClassLoader)</cmethod>

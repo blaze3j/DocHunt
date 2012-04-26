@@ -1,0 +1,2 @@
+<cmethod>newContext(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>transform(java.lang.String, org.codehaus.aspectwerkz.transform.Context)</cmethod>

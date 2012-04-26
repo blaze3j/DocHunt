@@ -1,0 +1,17 @@
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTRoot, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTInteger, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTAnnotation, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTKeyValuePair, java.lang.Object)</cmethod>
+<cfield>m_annotationElementValueHoldersByName</cfield>
+<cfield>PARSER</cfield>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTHex, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTBoolean, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTArray, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.SimpleNode, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTIdentifier, java.lang.Object)</cmethod>
+<cmethod>parse(java.util.Map, java.lang.String, java.lang.Class)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTOct, java.lang.Object)</cmethod>
+<cfield>m_annotationClass</cfield>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTFloat, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTChar, java.lang.Object)</cmethod>
+<cmethod>visit(org.codehaus.aspectwerkz.annotation.expression.ast.ASTString, java.lang.Object)</cmethod>

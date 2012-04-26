@@ -1,0 +1,3 @@
+<cmethod>getAnnotation(java.lang.String)</cmethod>
+<cmethod>getAnnotations(java.lang.String)</cmethod>
+<cmethod>getAnnotationInfos()</cmethod>

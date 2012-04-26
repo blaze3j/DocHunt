@@ -1,0 +1,9 @@
+<cfield>CONTROL</cfield>
+<cfield>ENGINE</cfield>
+<cfield>JMX</cfield>
+<cfield>MONITOR</cfield>
+<cmethod>getActions()</cmethod>
+<cfield>SERVER</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cfield>SHUTDOWN</cfield>
+<cmethod>implies(java.security.Permission)</cmethod>

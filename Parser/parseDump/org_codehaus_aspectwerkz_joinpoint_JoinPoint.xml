@@ -1,0 +1,5 @@
+<cmethod>getRtti()</cmethod>
+<cmethod>getThis()</cmethod>
+<cmethod>getCaller()</cmethod>
+<cmethod>getCallee()</cmethod>
+<cmethod>getTarget()</cmethod>

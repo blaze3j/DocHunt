@@ -1,0 +1,33 @@
+<cmethod>markDirty(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>getClassLoader()</cmethod>
+<cmethod>getSignature()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>getClassInfo(java.io.InputStream, java.lang.ClassLoader, boolean)</cmethod>
+<cmethod>isInterface()</cmethod>
+<cfield>EMPTY_STRING_ARRAY</cfield>
+<cmethod>newClassInfo(byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>getField(int)</cmethod>
+<cmethod>retrieveClassNameFromBytecode(byte[])</cmethod>
+<cmethod>getModifiers()</cmethod>
+<cmethod>getConstructors()</cmethod>
+<cmethod>hashCode()</cmethod>
+<cfield>EMPTY_LIST</cfield>
+<cmethod>getInterfaces()</cmethod>
+<cmethod>getClassInfo(byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>getMethods()</cmethod>
+<cmethod>staticInitializer()</cmethod>
+<cmethod>getSuperclass()</cmethod>
+<cmethod>getFields()</cmethod>
+<cmethod>isArray()</cmethod>
+<cmethod>getPrimitiveClass(java.lang.String)</cmethod>
+<cmethod>getAnnotations()</cmethod>
+<cmethod>hasStaticInitializer()</cmethod>
+<cmethod>getComponentType()</cmethod>
+<cmethod>isPrimitive()</cmethod>
+<cmethod>getClassInfo(java.lang.String, java.lang.ClassLoader)</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>getArrayClassInfo(java.lang.String, java.lang.ClassLoader, org.codehaus.aspectwerkz.reflect.ClassInfo)</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getConstructor(int)</cmethod>
+<cmethod>getClassInfo(java.io.InputStream, java.lang.ClassLoader)</cmethod>
+<cmethod>getMethod(int)</cmethod>

@@ -1,0 +1,10 @@
+<cfield>STATIC_INITIALIZATION</cfield>
+<cfield>SET</cfield>
+<cfield>GET</cfield>
+<cfield>WITHIN</cfield>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cfield>HANDLER</cfield>
+<cfield>CALL</cfield>
+<cmethod>toString()</cmethod>
+<cmethod>hashCode()</cmethod>
+<cfield>EXECUTION</cfield>

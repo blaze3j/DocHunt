@@ -1,0 +1,4 @@
+<cmethod>compileJoinPoint(int, java.lang.Class, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.Class, java.lang.ClassLoader)</cmethod>
+<cmethod>getParameterNames(java.lang.String)</cmethod>
+<cmethod>getAdviceInfoContainerForJoinPoint(org.codehaus.aspectwerkz.expression.ExpressionContext, java.lang.ClassLoader)</cmethod>
+<cmethod>loadJoinPoint(int, java.lang.Class, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String)</cmethod>

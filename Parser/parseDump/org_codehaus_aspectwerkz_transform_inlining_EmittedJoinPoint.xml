@@ -1,0 +1,17 @@
+<cmethod>getJoinPointHash()</cmethod>
+<cmethod>getCallerMethodDesc()</cmethod>
+<cmethod>getCallerMethodName()</cmethod>
+<cmethod>getCalleeMemberName()</cmethod>
+<cmethod>getCalleeMemberDesc()</cmethod>
+<cmethod>getCallerMethodModifiers()</cmethod>
+<cmethod>getJoinPointClassName()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cfield>NO_LINE_NUMBER</cfield>
+<cmethod>getJoinPointType()</cmethod>
+<cmethod>getCalleeClassName()</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>resolveLineNumber(org.codehaus.aspectwerkz.transform.Context)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getLineNumber()</cmethod>
+<cmethod>getCalleeMemberModifiers()</cmethod>
+<cmethod>getCallerClassName()</cmethod>

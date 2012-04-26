@@ -1,0 +1,9 @@
+<cmethod>setContainer(thinwire.ui.Container)</cmethod>
+<cmethod>getContainer()</cmethod>
+<cmethod>getMargin()</cmethod>
+<cmethod>setSpacing(int)</cmethod>
+<cmethod>isAutoApply()</cmethod>
+<cmethod>getSpacing()</cmethod>
+<cmethod>apply()</cmethod>
+<cmethod>setMargin(int)</cmethod>
+<cmethod>setAutoApply(boolean)</cmethod>

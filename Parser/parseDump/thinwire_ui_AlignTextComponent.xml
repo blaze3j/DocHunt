@@ -1,0 +1,3 @@
+<cmethod>setAlignX(thinwire.ui.AlignTextComponent.AlignX)</cmethod>
+<cmethod>getAlignX()</cmethod>
+<cfield>PROPERTY_ALIGN_X</cfield>

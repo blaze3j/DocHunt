@@ -1,0 +1,3 @@
+<cmethod>createCustomAnnotation(byte[])</cmethod>
+<cmethod>extractCustomAnnotation(org.objectweb.asm.attrs.Annotation)</cmethod>
+<cmethod>linkRuntimeInvisibleAnnotations(org.objectweb.asm.Attribute)</cmethod>

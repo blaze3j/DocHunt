@@ -1,0 +1,8 @@
+<cmethod>getAspectClassName()</cmethod>
+<cmethod>getAspectFieldName()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>getAspectClassSignature()</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getDeploymentModel()</cmethod>
+<cmethod>getAspectQualifiedName()</cmethod>
+<cmethod>getAspectDefinition()</cmethod>

@@ -1,0 +1,7 @@
+<cmethod>getExpression()</cmethod>
+<cmethod>getCflowBindingsForCflowOf(org.codehaus.aspectwerkz.expression.ExpressionInfo)</cmethod>
+<cmethod>getAspectDefinition(org.codehaus.aspectwerkz.definition.SystemDefinition, java.lang.ClassLoader)</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>hashCode()</cmethod>
+<cmethod>getCflowID()</cmethod>
+<cmethod>isCflowBelow()</cmethod>

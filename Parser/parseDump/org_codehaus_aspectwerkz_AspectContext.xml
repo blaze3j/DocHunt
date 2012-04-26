@@ -1,0 +1,14 @@
+<cmethod>getParameter(java.lang.String)</cmethod>
+<cmethod>getContainer()</cmethod>
+<cmethod>newInstance(org.codehaus.aspectwerkz.AspectContext)</cmethod>
+<cfield>EMPTY_OBJECT_ARRAY</cfield>
+<cmethod>getMetaData(java.lang.Object)</cmethod>
+<cmethod>getAspectClass()</cmethod>
+<cmethod>getName()</cmethod>
+<cmethod>setContainer(org.codehaus.aspectwerkz.aspect.AspectContainer)</cmethod>
+<cmethod>addMetaData(java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>getDeploymentModel()</cmethod>
+<cmethod>isPrototype()</cmethod>
+<cmethod>setParameter(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getAspectDefinition()</cmethod>
+<cmethod>getUuid()</cmethod>

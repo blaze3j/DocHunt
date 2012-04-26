@@ -1,0 +1,7 @@
+<cmethod>aw$getAfterThrowingAdvice(int)</cmethod>
+<cmethod>aw$getAfterAdvice(int)</cmethod>
+<cmethod>aw$getAfterReturningAdvice(int)</cmethod>
+<cmethod>aw_removeAdvice(java.lang.String, java.lang.Class)</cmethod>
+<cmethod>aw$getAroundAdvice(int)</cmethod>
+<cmethod>aw_addAdvice(java.lang.String, org.codehaus.aspectwerkz.intercept.Advice)</cmethod>
+<cmethod>aw$getBeforeAdvice(int)</cmethod>

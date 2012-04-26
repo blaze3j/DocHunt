@@ -1,0 +1,4 @@
+<cmethod>getModels()</cmethod>
+<cmethod>getModelFor(java.lang.String)</cmethod>
+<cfield>ASPECT_MODELS_VM_OPTION</cfield>
+<cmethod>defineAspect(org.codehaus.aspectwerkz.reflect.ClassInfo, org.codehaus.aspectwerkz.definition.AspectDefinition, java.lang.ClassLoader)</cmethod>

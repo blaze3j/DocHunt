@@ -1,0 +1,11 @@
+<cmethod>getAttributesAsPassword()</cmethod>
+<cmethod>setAttributesAsPassword(boolean)</cmethod>
+<cmethod>getConnection(java.lang.String, java.lang.String)</cmethod>
+<cmethod>getShutdownDatabase()</cmethod>
+<cmethod>getConnection()</cmethod>
+<cmethod>setCreateDatabase(java.lang.String)</cmethod>
+<cmethod>setConnectionAttributes(java.lang.String)</cmethod>
+<cmethod>getConnectionAttributes()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>setShutdownDatabase(java.lang.String)</cmethod>
+<cmethod>getCreateDatabase()</cmethod>

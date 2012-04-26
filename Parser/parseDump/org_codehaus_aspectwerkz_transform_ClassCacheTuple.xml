@@ -1,0 +1,6 @@
+<cmethod>getClassName()</cmethod>
+<cmethod>setClassName(java.lang.String)</cmethod>
+<cmethod>getClassLoader()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>setClassLoader(java.lang.ClassLoader)</cmethod>
+<cmethod>hashCode()</cmethod>

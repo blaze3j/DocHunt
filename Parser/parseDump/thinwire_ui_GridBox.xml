@@ -1,0 +1,70 @@
+<cmethod>getWidth()</cmethod>
+<cmethod>getLimit()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, boolean, boolean)</cmethod>
+<cmethod>isFocus()</cmethod>
+<cfield>PROPERTY_VISIBLE_HEADER</cfield>
+<cmethod>addKeyPressListener(java.lang.String[], thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component, java.lang.Object)</cmethod>
+<cmethod>addKeyPressListener(java.lang.String, thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>addDropListener(thinwire.ui.Component[], thinwire.ui.event.DropListener)</cmethod>
+<cmethod>fireKeyPress(java.lang.String)</cmethod>
+<cmethod>isFocusCapable()</cmethod>
+<cmethod>getRowsWithChildren()</cmethod>
+<cmethod>getX()</cmethod>
+<cmethod>isVisibleHeader()</cmethod>
+<cmethod>setUserObject(java.lang.Object)</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String, thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>isVisibleCheckBoxes()</cmethod>
+<cmethod>isSortAllowed()</cmethod>
+<cmethod>fireDrop(thinwire.ui.Component)</cmethod>
+<cmethod>setY(int)</cmethod>
+<cfield>PROPERTY_SORT_ALLOWED</cfield>
+<cfield>PROPERTY_FULL_ROW_CHECK_BOX</cfield>
+<cmethod>fireAction(java.lang.String, java.lang.Object)</cmethod>
+<cmethod>removeKeyPressListener(thinwire.ui.event.KeyPressListener)</cmethod>
+<cmethod>fireAction(java.lang.String)</cmethod>
+<cmethod>removeItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cmethod>setHeight(int)</cmethod>
+<cmethod>setWidth(int)</cmethod>
+<cmethod>getStyle()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, int, int)</cmethod>
+<cmethod>setVisibleCheckBoxes(boolean)</cmethod>
+<cmethod>setFocus(boolean)</cmethod>
+<cmethod>setLimit(java.lang.Object)</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>addItemChangeListener(thinwire.ui.event.ItemChangeListener)</cmethod>
+<cmethod>addDropListener(thinwire.ui.Component, thinwire.ui.event.DropListener)</cmethod>
+<cmethod>getRows()</cmethod>
+<cmethod>fireAction(thinwire.ui.event.ActionEvent)</cmethod>
+<cmethod>setSize(int, int)</cmethod>
+<cmethod>fireDrop(thinwire.ui.event.DropEvent)</cmethod>
+<cmethod>getContainer()</cmethod>
+<cmethod>setX(int)</cmethod>
+<cmethod>getCheckedRows()</cmethod>
+<cmethod>getUserObject()</cmethod>
+<cmethod>setVisible(boolean)</cmethod>
+<cmethod>removePropertyChangeListener(thinwire.ui.event.PropertyChangeListener)</cmethod>
+<cmethod>removeDropListener(thinwire.ui.event.DropListener)</cmethod>
+<cmethod>isVisible()</cmethod>
+<cmethod>setBounds(int, int, int, int)</cmethod>
+<cmethod>isFullRowCheckBox()</cmethod>
+<cmethod>setFullRowCheckBox(boolean)</cmethod>
+<cmethod>getSelectedRow()</cmethod>
+<cmethod>isEnabled()</cmethod>
+<cmethod>setVisibleHeader(boolean)</cmethod>
+<cmethod>addActionListener(java.lang.String[], thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>addActionListener(java.lang.String, thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>getParent()</cmethod>
+<cfield>PROPERTY_VISIBLE_CHECK_BOXES</cfield>
+<cmethod>getColumns()</cmethod>
+<cmethod>getPriorSelectedRow()</cmethod>
+<cmethod>fireKeyPress(thinwire.ui.event.KeyPressEvent)</cmethod>
+<cmethod>setSortAllowed(boolean)</cmethod>
+<cmethod>setFocusCapable(boolean)</cmethod>
+<cmethod>setEnabled(boolean)</cmethod>
+<cmethod>setPosition(int, int)</cmethod>
+<cmethod>getLabel()</cmethod>
+<cmethod>getHeight()</cmethod>
+<cmethod>removeActionListener(thinwire.ui.event.ActionListener)</cmethod>
+<cmethod>getY()</cmethod>
+<cmethod>addPropertyChangeListener(java.lang.String[], thinwire.ui.event.PropertyChangeListener)</cmethod>

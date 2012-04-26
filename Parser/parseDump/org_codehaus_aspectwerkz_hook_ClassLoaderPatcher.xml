@@ -1,0 +1,4 @@
+<cmethod>patchClassLoader(java.lang.String, java.lang.String)</cmethod>
+<cmethod>hotswapClassLoader(java.lang.String, java.lang.String, java.lang.String)</cmethod>
+<cmethod>inputStreamToByteArray(java.io.InputStream)</cmethod>
+<cmethod>hotswapClassLoader(java.lang.String, java.lang.String, java.lang.String, int)</cmethod>

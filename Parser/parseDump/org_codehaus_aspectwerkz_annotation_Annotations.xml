@@ -1,0 +1,20 @@
+<cmethod>getAnnotations(java.lang.String, java.lang.reflect.Constructor)</cmethod>
+<cmethod>getAnnotations(java.lang.String, java.lang.reflect.Field)</cmethod>
+<cmethod>getAnnotations(java.lang.String, java.lang.reflect.Method)</cmethod>
+<cmethod>getAnnotation(java.lang.Class, java.lang.reflect.Constructor)</cmethod>
+<cmethod>getAnnotationInfos(java.lang.reflect.Constructor)</cmethod>
+<cmethod>getAnnotation(java.lang.Class, java.lang.reflect.Field)</cmethod>
+<cmethod>getAnnotations(java.lang.Class, java.lang.Class)</cmethod>
+<cmethod>getAnnotation(java.lang.String, java.lang.reflect.Field)</cmethod>
+<cmethod>getAnnotation(java.lang.Class, java.lang.Class)</cmethod>
+<cmethod>getAnnotations(java.lang.Class, java.lang.reflect.Method)</cmethod>
+<cmethod>getAnnotationInfos(java.lang.reflect.Field)</cmethod>
+<cmethod>getAnnotationInfos(java.lang.Class)</cmethod>
+<cmethod>getAnnotations(java.lang.Class, java.lang.reflect.Field)</cmethod>
+<cmethod>getAnnotation(java.lang.String, java.lang.reflect.Method)</cmethod>
+<cmethod>getAnnotation(java.lang.String, java.lang.Class)</cmethod>
+<cmethod>getAnnotation(java.lang.String, java.lang.reflect.Constructor)</cmethod>
+<cmethod>getAnnotationInfos(java.lang.reflect.Method)</cmethod>
+<cmethod>getAnnotation(java.lang.Class, java.lang.reflect.Method)</cmethod>
+<cmethod>getAnnotations(java.lang.String, java.lang.Class)</cmethod>
+<cmethod>getAnnotations(java.lang.Class, java.lang.reflect.Constructor)</cmethod>

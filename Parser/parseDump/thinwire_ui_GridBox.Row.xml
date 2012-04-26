@@ -1,0 +1,10 @@
+<cfield>PROPERTY_ROW_CHECKED</cfield>
+<cfield>PROPERTY_ROW_SELECTED</cfield>
+<cmethod>isChecked()</cmethod>
+<cmethod>setChecked(boolean)</cmethod>
+<cmethod>setSelected(boolean)</cmethod>
+<cmethod>isSelected()</cmethod>
+<cmethod>getChild()</cmethod>
+<cmethod>toString()</cmethod>
+<cfield>PROPERTY_ROW_CHILD</cfield>
+<cmethod>setChild(thinwire.ui.GridBox)</cmethod>

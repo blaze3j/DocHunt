@@ -1,0 +1,19 @@
+<cmethod>getFX()</cmethod>
+<cmethod>getFont()</cmethod>
+<cmethod>getOpacity()</cmethod>
+<cmethod>getBackground()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>toString()</cmethod>
+<cmethod>getBorder()</cmethod>
+<ccons>Style(thinwire.ui.style.Style, java.lang.Object)</ccons>
+<cmethod>copy(thinwire.ui.style.Style)</cmethod>
+<cfield>PROPERTY_OPACITY</cfield>
+<cmethod>copy(thinwire.ui.style.Style, boolean)</cmethod>
+<ccons>Style(thinwire.ui.style.Style)</ccons>
+<cmethod>getParent()</cmethod>
+<cmethod>firePropertyChange(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object)</cmethod>
+<cmethod>setProperty(java.lang.String, java.lang.Object)</cmethod>
+<ccons>Style()</ccons>
+<cmethod>setOpacity(int)</cmethod>
+<cmethod>getProperty(java.lang.String)</cmethod>
+<cmethod>hashCode()</cmethod>

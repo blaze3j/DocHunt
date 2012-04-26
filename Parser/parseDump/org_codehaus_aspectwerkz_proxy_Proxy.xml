@@ -1,0 +1,7 @@
+<cmethod>getProxyClassFor(java.lang.Class, boolean, boolean)</cmethod>
+<cfield>PROXY_SUFFIX_START</cfield>
+<cmethod>newInstance(java.lang.Class, java.lang.Class[], java.lang.Object[])</cmethod>
+<cmethod>getUniqueClassNameFromProxy(java.lang.String)</cmethod>
+<cmethod>newInstance(java.lang.Class)</cmethod>
+<cmethod>newInstance(java.lang.Class, java.lang.Class[], java.lang.Object[], boolean, boolean)</cmethod>
+<cmethod>newInstance(java.lang.Class, boolean, boolean)</cmethod>

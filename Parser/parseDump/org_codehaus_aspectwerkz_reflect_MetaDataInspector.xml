@@ -1,0 +1,2 @@
+<cmethod>hasField(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String)</cmethod>
+<cmethod>hasInterface(org.codehaus.aspectwerkz.reflect.ClassInfo, java.lang.String)</cmethod>

@@ -1,0 +1,4 @@
+<cmethod>getLoader()</cmethod>
+<cmethod>forName(java.lang.String)</cmethod>
+<cmethod>loadResource(java.lang.String)</cmethod>
+<cmethod>forName(java.lang.ClassLoader, java.lang.String)</cmethod>

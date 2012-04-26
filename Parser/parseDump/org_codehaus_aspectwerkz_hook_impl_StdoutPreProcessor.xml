@@ -1,0 +1,3 @@
+<cmethod>preProcess(java.lang.String, byte[], java.lang.ClassLoader)</cmethod>
+<cmethod>main(java.lang.String[])</cmethod>
+<cmethod>initialize()</cmethod>

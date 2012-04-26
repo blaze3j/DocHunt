@@ -1,0 +1,5 @@
+<cmethod>getExpressionContext()</cmethod>
+<cmethod>equals(java.lang.Object)</cmethod>
+<cmethod>getJoinPointClass()</cmethod>
+<cmethod>getCompilationInfo()</cmethod>
+<cmethod>hashCode()</cmethod>
