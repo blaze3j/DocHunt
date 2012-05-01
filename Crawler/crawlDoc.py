@@ -30,10 +30,28 @@ def getRelatedText(page):
 
     return soup.prettify()
 
+def lemurTag(text,fileName):
+    tag = fileName
+    prefixTag = '<DOC>\n' + '<DOCNO> ' + tag + ' </DOCNO>'
+    postfixTag = '</DOC>'
+    print tag
+    textTag = prefixTag + text + postfixTag
+    return textTag
+
+def lemurWriteText(text, fileName):
+    handle = open(fileName, 'w')
+    text = lemurTag(text, fileName)
+    # text = text.encode('ascii', errors='ignore')
+    handle.write(text)
+    handle.close()
+    print "dumped to " + fileName
+
 destination = sys.argv[1]
 parseDict = {'http://db.apache.org/derby/javadoc/publishedapi/jdbc3/':'derby',
              'http://www.thinwire.com/api/':'thinwire/',
-             'http://aspectwerkz.codehaus.org/apidocs/':'aspect'}
+             'http://aspectwerkz.codehaus.org/apidocs/':'aspect',
+             'http://www.jfree.org/jfreechart/api/javadoc/':'jfreechart',
+             'http://lucene.apache.org/core/3_6_0/api/all/':'lucene'}
 #parseDict = {'http://db.apache.org/derby/javadoc/publishedapi/jdbc3/':'derby'}
 
 for page in parseDict.keys():
@@ -42,6 +60,4 @@ for page in parseDict.keys():
     for link in links:
         text = getRelatedText(page + link)
         path = os.path.join(destination,link.replace('/','_'))
-        fd = open(path, 'w')
-        fd.write(text)
-        fd.close()
+        lemurWriteText(text, path)
