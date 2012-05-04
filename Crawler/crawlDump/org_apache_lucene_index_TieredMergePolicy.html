@@ -10,7 +10,7 @@
    TieredMergePolicy (Lucene 3.6.0 API)
   </title>
   <meta content="2012-04-11" name="date" />
-  <link href="../../../../stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
+  <link href="http://lucene.apache.org/core/3_6_0/api/all/stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
  </head>
  <body>
   <script type="text/javascript">
@@ -37,7 +37,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -60,17 +60,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -79,14 +79,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/index/ThreadedIndexingAndSearchingTestCase.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/ThreadedIndexingAndSearchingTestCase.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Next Class
       </span>
@@ -95,7 +95,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/index/TieredMergePolicy.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/index/TieredMergePolicy.html" target="_top">
       Frames
      </a>
     </li>
@@ -107,7 +107,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_top">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>
@@ -198,7 +198,7 @@
     <li>
      <ul class="inheritance">
       <li>
-       <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
         org.apache.lucene.index.MergePolicy
        </a>
       </li>
@@ -233,7 +233,7 @@
         TieredMergePolicy
        </span>
        extends
-       <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
         MergePolicy
        </a>
       </pre>
@@ -241,7 +241,7 @@
        Merges segments of approximately equal size, subject to
   an allowed number of segments per tier.  This is similar
   to
-       <a href="../../../../org/apache/lucene/index/LogByteSizeMergePolicy.html" title="class in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/LogByteSizeMergePolicy.html" title="class in org.apache.lucene.index">
         <code>
          LogByteSizeMergePolicy
         </code>
@@ -249,14 +249,14 @@
        , except this merge
   policy is able to merge non-adjacent segment, and
   separates how many segments are merged at once (
-       <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
         <code>
          setMaxMergeAtOnce(int)
         </code>
        </a>
        ) from how many segments are allowed
   per tier (
-       <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
         <code>
          setSegmentsPerTier(double)
         </code>
@@ -278,7 +278,7 @@
        </p>
        <p>
         If a merge will produce a segment that's larger than
-        <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergedSegmentMB(double)">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergedSegmentMB(double)">
          <code>
           setMaxMergedSegmentMB(double)
          </code>
@@ -290,7 +290,7 @@
        <p>
         NOTE: this policy freely merges non-adjacent
   segments; if this is a problem, use
-        <a href="../../../../org/apache/lucene/index/LogMergePolicy.html" title="class in org.apache.lucene.index">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/LogMergePolicy.html" title="class in org.apache.lucene.index">
          <code>
           LogMergePolicy
          </code>
@@ -305,7 +305,7 @@
   of the segments, always pro-rates by percent deletes,
   and does not apply any maximum segment size during
   forceMerge (unlike
-        <a href="../../../../org/apache/lucene/index/LogByteSizeMergePolicy.html" title="class in org.apache.lucene.index">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/LogByteSizeMergePolicy.html" title="class in org.apache.lucene.index">
          <code>
           LogByteSizeMergePolicy
          </code>
@@ -362,7 +362,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
               TieredMergePolicy.MergeScore
              </a>
             </strong>
@@ -381,24 +381,24 @@
           </a>
           <h3>
            Nested classes/interfaces inherited from class org.apache.lucene.index.
-           <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
             MergePolicy
            </a>
           </h3>
           <code>
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeAbortedException.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeAbortedException.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeAbortedException
            </a>
            ,
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeException.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeException.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeException
            </a>
            ,
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeSpecification
            </a>
            ,
-           <a href="../../../../org/apache/lucene/index/MergePolicy.OneMerge.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.OneMerge.html" title="class in org.apache.lucene.index">
             MergePolicy.OneMerge
            </a>
           </code>
@@ -422,12 +422,12 @@
           </a>
           <h3>
            Fields inherited from class org.apache.lucene.index.
-           <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
             MergePolicy
            </a>
           </h3>
           <code>
-           <a href="../../../../org/apache/lucene/index/MergePolicy.html#writer">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#writer">
             writer
            </a>
           </code>
@@ -461,7 +461,7 @@
           <td class="colOne">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#TieredMergePolicy()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#TieredMergePolicy()">
               TieredMergePolicy
              </a>
             </strong>
@@ -506,7 +506,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#close()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#close()">
               close
              </a>
             </strong>
@@ -520,7 +520,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
              MergePolicy.MergeSpecification
             </a>
            </code>
@@ -528,12 +528,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
               findForcedDeletesMerges
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
              SegmentInfos
             </a>
             infos)
@@ -547,7 +547,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
              MergePolicy.MergeSpecification
             </a>
            </code>
@@ -555,12 +555,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
               findForcedMerges
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
              SegmentInfos
             </a>
             infos,
@@ -569,7 +569,7 @@
              Map
             </a>
             <
-            <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
              SegmentInfo
             </a>
             ,
@@ -587,7 +587,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
              MergePolicy.MergeSpecification
             </a>
            </code>
@@ -595,12 +595,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
               findMerges
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
              SegmentInfos
             </a>
             infos)
@@ -619,7 +619,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getFloorSegmentMB()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getFloorSegmentMB()">
               getFloorSegmentMB
              </a>
             </strong>
@@ -636,7 +636,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getForceMergeDeletesPctAllowed()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getForceMergeDeletesPctAllowed()">
               getForceMergeDeletesPctAllowed
              </a>
             </strong>
@@ -653,7 +653,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getMaxMergeAtOnce()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getMaxMergeAtOnce()">
               getMaxMergeAtOnce
              </a>
             </strong>
@@ -670,7 +670,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getMaxMergeAtOnceExplicit()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getMaxMergeAtOnceExplicit()">
               getMaxMergeAtOnceExplicit
              </a>
             </strong>
@@ -687,7 +687,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getMaxMergedSegmentMB()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getMaxMergedSegmentMB()">
               getMaxMergedSegmentMB
              </a>
             </strong>
@@ -704,7 +704,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getNoCFSRatio()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getNoCFSRatio()">
               getNoCFSRatio
              </a>
             </strong>
@@ -721,7 +721,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getReclaimDeletesWeight()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getReclaimDeletesWeight()">
               getReclaimDeletesWeight
              </a>
             </strong>
@@ -729,7 +729,7 @@
            </code>
            <div class="block">
             See
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
              <code>
               setReclaimDeletesWeight(double)
              </code>
@@ -747,7 +747,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getSegmentsPerTier()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getSegmentsPerTier()">
               getSegmentsPerTier
              </a>
             </strong>
@@ -764,7 +764,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getUseCompoundFile()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getUseCompoundFile()">
               getUseCompoundFile
              </a>
             </strong>
@@ -776,7 +776,7 @@
           <td class="colFirst">
            <code>
             protected
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
              TieredMergePolicy.MergeScore
             </a>
            </code>
@@ -784,7 +784,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#score(java.util.List, boolean, long)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#score(java.util.List, boolean, long)">
               score
              </a>
             </strong>
@@ -793,7 +793,7 @@
              List
             </a>
             <
-            <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
              SegmentInfo
             </a>
             > candidate,
@@ -808,7 +808,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -816,7 +816,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setFloorSegmentMB(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setFloorSegmentMB(double)">
               setFloorSegmentMB
              </a>
             </strong>
@@ -832,7 +832,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -840,7 +840,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setForceMergeDeletesPctAllowed(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setForceMergeDeletesPctAllowed(double)">
               setForceMergeDeletesPctAllowed
              </a>
             </strong>
@@ -856,7 +856,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -864,7 +864,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
               setMaxMergeAtOnce
              </a>
             </strong>
@@ -879,7 +879,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -887,7 +887,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
               setMaxMergeAtOnceExplicit
              </a>
             </strong>
@@ -902,7 +902,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -910,7 +910,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergedSegmentMB(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergedSegmentMB(double)">
               setMaxMergedSegmentMB
              </a>
             </strong>
@@ -925,7 +925,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -933,7 +933,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setNoCFSRatio(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setNoCFSRatio(double)">
               setNoCFSRatio
              </a>
             </strong>
@@ -949,7 +949,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -957,7 +957,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
               setReclaimDeletesWeight
              </a>
             </strong>
@@ -972,7 +972,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -980,7 +980,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
               setSegmentsPerTier
              </a>
             </strong>
@@ -994,7 +994,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
              TieredMergePolicy
             </a>
            </code>
@@ -1002,7 +1002,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setUseCompoundFile(boolean)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setUseCompoundFile(boolean)">
               setUseCompoundFile
              </a>
             </strong>
@@ -1025,7 +1025,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#toString()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#toString()">
               toString
              </a>
             </strong>
@@ -1042,16 +1042,16 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
               useCompoundFile
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
              SegmentInfos
             </a>
             infos,
-            <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
              SegmentInfo
             </a>
             mergedInfo)
@@ -1069,12 +1069,12 @@
           </a>
           <h3>
            Methods inherited from class org.apache.lucene.index.
-           <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
             MergePolicy
            </a>
           </h3>
           <code>
-           <a href="../../../../org/apache/lucene/index/MergePolicy.html#setIndexWriter(org.apache.lucene.index.IndexWriter)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#setIndexWriter(org.apache.lucene.index.IndexWriter)">
             setIndexWriter
            </a>
           </code>
@@ -1185,7 +1185,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setMaxMergeAtOnce(int v)
@@ -1194,7 +1194,7 @@
            Maximum number of segments to be merged at a time
   during "normal" merging.  For explicit merging (eg,
   forceMerge or forceMergeDeletes was called), see
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
             <code>
              setMaxMergeAtOnceExplicit(int)
             </code>
@@ -1221,7 +1221,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
              <code>
               setMaxMergeAtOnce(int)
              </code>
@@ -1240,7 +1240,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setMaxMergeAtOnceExplicit(int v)
@@ -1269,7 +1269,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnceExplicit(int)">
              <code>
               setMaxMergeAtOnceExplicit(int)
              </code>
@@ -1288,7 +1288,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setMaxMergedSegmentMB(double v)
@@ -1320,7 +1320,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#getMaxMergedSegmentMB()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#getMaxMergedSegmentMB()">
              <code>
               getMaxMergedSegmentMB()
              </code>
@@ -1339,7 +1339,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setReclaimDeletesWeight(double v)
@@ -1365,7 +1365,7 @@
           </pre>
           <div class="block">
            See
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setReclaimDeletesWeight(double)">
             <code>
              setReclaimDeletesWeight(double)
             </code>
@@ -1384,7 +1384,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setFloorSegmentMB(double v)
@@ -1416,7 +1416,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setFloorSegmentMB(double)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setFloorSegmentMB(double)">
              <code>
               setFloorSegmentMB(double)
              </code>
@@ -1435,7 +1435,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setForceMergeDeletesPctAllowed(double v)
@@ -1465,7 +1465,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setForceMergeDeletesPctAllowed(double)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setForceMergeDeletesPctAllowed(double)">
              <code>
               setForceMergeDeletesPctAllowed(double)
              </code>
@@ -1484,7 +1484,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setSegmentsPerTier(double v)
@@ -1497,7 +1497,7 @@
              NOTE
             </b>
             : this value should be >= the
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setMaxMergeAtOnce(int)">
              <code>
               setMaxMergeAtOnce(int)
              </code>
@@ -1529,7 +1529,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setSegmentsPerTier(double)">
              <code>
               setSegmentsPerTier(double)
              </code>
@@ -1548,7 +1548,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setUseCompoundFile(boolean useCompoundFile)
@@ -1578,7 +1578,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setUseCompoundFile(boolean)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setUseCompoundFile(boolean)">
              <code>
               setUseCompoundFile(boolean)
              </code>
@@ -1597,7 +1597,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html" title="class in org.apache.lucene.index">
             TieredMergePolicy
            </a>
            setNoCFSRatio(double noCFSRatio)
@@ -1629,7 +1629,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/TieredMergePolicy.html#setNoCFSRatio(double)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.html#setNoCFSRatio(double)">
              <code>
               setNoCFSRatio(double)
              </code>
@@ -1648,11 +1648,11 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeSpecification
            </a>
            findMerges(
-           <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
             SegmentInfos
            </a>
            infos)
@@ -1665,7 +1665,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
               MergePolicy
              </a>
             </code>
@@ -1673,14 +1673,14 @@
           </div>
           <div class="block">
            Determine what set of merge operations are now necessary on the index.
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
             <code>
              IndexWriter
             </code>
            </a>
            calls this whenever there is a change to the segments.
  This call is always synchronized on the
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
             <code>
              IndexWriter
             </code>
@@ -1696,13 +1696,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findMerges(org.apache.lucene.index.SegmentInfos)">
               findMerges
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
               MergePolicy
              </a>
             </code>
@@ -1743,7 +1743,7 @@
           </h4>
           <pre>
            protected
-           <a href="../../../../org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
             TieredMergePolicy.MergeScore
            </a>
            score(
@@ -1751,7 +1751,7 @@
             List
            </a>
            <
-           <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
             SegmentInfo
            </a>
            > candidate,
@@ -1791,11 +1791,11 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeSpecification
            </a>
            findForcedMerges(
-           <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
             SegmentInfos
            </a>
            infos,
@@ -1804,7 +1804,7 @@
             Map
            </a>
            <
-           <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
             SegmentInfo
            </a>
            ,
@@ -1821,7 +1821,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
               MergePolicy
              </a>
             </code>
@@ -1834,14 +1834,14 @@
             IndexWriter
            </code>
            calls this when its
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html#forceMerge(int)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html#forceMerge(int)">
             <code>
              IndexWriter.forceMerge(int)
             </code>
            </a>
            method is called. This call is always
  synchronized on the
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
             <code>
              IndexWriter
             </code>
@@ -1857,13 +1857,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findForcedMerges(org.apache.lucene.index.SegmentInfos, int, java.util.Map)">
               findForcedMerges
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
               MergePolicy
              </a>
             </code>
@@ -1923,16 +1923,16 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.MergeSpecification.html" title="class in org.apache.lucene.index">
             MergePolicy.MergeSpecification
            </a>
            findForcedDeletesMerges(
-           <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
             SegmentInfos
            </a>
            infos)
                                                        throws
-           <a href="../../../../org/apache/lucene/index/CorruptIndexException.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/CorruptIndexException.html" title="class in org.apache.lucene.index">
             CorruptIndexException
            </a>
            ,
@@ -1944,7 +1944,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
               MergePolicy
              </a>
             </code>
@@ -1962,13 +1962,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#findForcedDeletesMerges(org.apache.lucene.index.SegmentInfos)">
               findForcedDeletesMerges
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
               MergePolicy
              </a>
             </code>
@@ -1991,7 +1991,7 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/CorruptIndexException.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/CorruptIndexException.html" title="class in org.apache.lucene.index">
               CorruptIndexException
              </a>
             </code>
@@ -2016,11 +2016,11 @@
           </h4>
           <pre>
            public boolean useCompoundFile(
-           <a href="../../../../org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfos.html" title="class in org.apache.lucene.index">
             SegmentInfos
            </a>
            infos,
-           <a href="../../../../org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SegmentInfo.html" title="class in org.apache.lucene.index">
             SegmentInfo
            </a>
            mergedInfo)
@@ -2033,7 +2033,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
               MergePolicy
              </a>
             </code>
@@ -2050,13 +2050,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#useCompoundFile(org.apache.lucene.index.SegmentInfos, org.apache.lucene.index.SegmentInfo)">
               useCompoundFile
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
               MergePolicy
              </a>
             </code>
@@ -2091,7 +2091,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#close()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#close()">
               MergePolicy
              </a>
             </code>
@@ -2126,13 +2126,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html#close()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html#close()">
               close
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/MergePolicy.html" title="class in org.apache.lucene.index">
               MergePolicy
              </a>
             </code>
@@ -2196,7 +2196,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -2219,17 +2219,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -2238,14 +2238,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/index/ThreadedIndexingAndSearchingTestCase.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/ThreadedIndexingAndSearchingTestCase.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/TieredMergePolicy.MergeScore.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Next Class
       </span>
@@ -2254,7 +2254,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/index/TieredMergePolicy.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/index/TieredMergePolicy.html" target="_top">
       Frames
      </a>
     </li>
@@ -2266,7 +2266,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_bottom">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>

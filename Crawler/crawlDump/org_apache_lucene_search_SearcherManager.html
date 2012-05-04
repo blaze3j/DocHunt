@@ -10,7 +10,7 @@
    SearcherManager (Lucene 3.6.0 API)
   </title>
   <meta content="2012-04-11" name="date" />
-  <link href="../../../../stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
+  <link href="http://lucene.apache.org/core/3_6_0/api/all/stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
  </head>
  <body>
   <script type="text/javascript">
@@ -37,7 +37,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -60,17 +60,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -79,14 +79,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/search/SearcherLifetimeManager.Pruner.html" title="interface in org.apache.lucene.search">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherLifetimeManager.Pruner.html" title="interface in org.apache.lucene.search">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/search/Similarity.html" title="class in org.apache.lucene.search">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/Similarity.html" title="class in org.apache.lucene.search">
       <span class="strong">
        Next Class
       </span>
@@ -95,7 +95,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/search/SearcherManager.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/search/SearcherManager.html" target="_top">
       Frames
      </a>
     </li>
@@ -107,7 +107,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_top">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>
@@ -195,11 +195,11 @@
     <li>
      <ul class="inheritance">
       <li>
-       <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
         org.apache.lucene.search.ReferenceManager
        </a>
        <
-       <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
         IndexSearcher
        </a>
        >
@@ -235,18 +235,18 @@
         SearcherManager
        </span>
        extends
-       <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
         ReferenceManager
        </a>
        <
-       <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
         IndexSearcher
        </a>
        >
       </pre>
       <div class="block">
        Utility class to safely share
-       <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
         <code>
          IndexSearcher
         </code>
@@ -256,13 +256,13 @@
  closed only once all threads have finished using it.
        <p>
         Use
-        <a href="../../../../org/apache/lucene/search/ReferenceManager.html#acquire()">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#acquire()">
          <code>
           ReferenceManager.acquire()
          </code>
         </a>
         to obtain the current searcher, and
-        <a href="../../../../org/apache/lucene/search/ReferenceManager.html#release(G)">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#release(G)">
          <code>
           ReferenceManager.release(G)
          </code>
@@ -282,7 +282,7 @@
        </pre>
        <p>
         In addition you should periodically call
-        <a href="../../../../org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
          <code>
           ReferenceManager.maybeRefresh()
          </code>
@@ -292,7 +292,7 @@
  since it penalizes the unlucky queries that do the reopen. It's better to use
  a separate background thread, that periodically calls maybeReopen. Finally,
  be sure to call
-        <a href="../../../../org/apache/lucene/search/ReferenceManager.html#close()">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#close()">
          <code>
           ReferenceManager.close()
          </code>
@@ -307,7 +307,7 @@
         </span>
        </dt>
        <dd>
-        <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
          <code>
           SearcherFactory
          </code>
@@ -343,12 +343,12 @@
           </a>
           <h3>
            Fields inherited from class org.apache.lucene.search.
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
             ReferenceManager
            </a>
           </h3>
           <code>
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#current">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#current">
             current
            </a>
           </code>
@@ -382,23 +382,23 @@
           <td class="colOne">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#SearcherManager(org.apache.lucene.store.Directory, org.apache.lucene.search.SearcherFactory)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#SearcherManager(org.apache.lucene.store.Directory, org.apache.lucene.search.SearcherFactory)">
               SearcherManager
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
              Directory
             </a>
             dir,
-            <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
              SearcherFactory
             </a>
             searcherFactory)
            </code>
            <div class="block">
             Creates and returns a new SearcherManager from the given
-            <a href="../../../../org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
              <code>
               Directory
              </code>
@@ -411,24 +411,24 @@
           <td class="colOne">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#SearcherManager(org.apache.lucene.index.IndexWriter, boolean, org.apache.lucene.search.SearcherFactory)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#SearcherManager(org.apache.lucene.index.IndexWriter, boolean, org.apache.lucene.search.SearcherFactory)">
               SearcherManager
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
              IndexWriter
             </a>
             writer,
                boolean applyAllDeletes,
-            <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
              SearcherFactory
             </a>
             searcherFactory)
            </code>
            <div class="block">
             Creates and returns a new SearcherManager from the given
-            <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
              <code>
               IndexWriter
              </code>
@@ -474,12 +474,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#decRef(org.apache.lucene.search.IndexSearcher)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#decRef(org.apache.lucene.search.IndexSearcher)">
               decRef
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
              IndexSearcher
             </a>
             reference)
@@ -498,7 +498,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#isSearcherCurrent()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#isSearcherCurrent()">
               isSearcherCurrent
              </a>
             </strong>
@@ -523,7 +523,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#maybeReopen()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#maybeReopen()">
               maybeReopen
              </a>
             </strong>
@@ -536,7 +536,7 @@
             <div class="block">
              <i>
               see
-              <a href="../../../../org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
+              <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
                <code>
                 ReferenceManager.maybeRefresh()
                </code>
@@ -551,7 +551,7 @@
           <td class="colFirst">
            <code>
             protected
-            <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
              IndexSearcher
             </a>
            </code>
@@ -559,12 +559,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#refreshIfNeeded(org.apache.lucene.search.IndexSearcher)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#refreshIfNeeded(org.apache.lucene.search.IndexSearcher)">
               refreshIfNeeded
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
              IndexSearcher
             </a>
             referenceToRefresh)
@@ -583,12 +583,12 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/search/SearcherManager.html#tryIncRef(org.apache.lucene.search.IndexSearcher)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherManager.html#tryIncRef(org.apache.lucene.search.IndexSearcher)">
               tryIncRef
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
              IndexSearcher
             </a>
             reference)
@@ -606,32 +606,32 @@
           </a>
           <h3>
            Methods inherited from class org.apache.lucene.search.
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
             ReferenceManager
            </a>
           </h3>
           <code>
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#acquire()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#acquire()">
             acquire
            </a>
            ,
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#afterClose()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#afterClose()">
             afterClose
            </a>
            ,
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#afterRefresh()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#afterRefresh()">
             afterRefresh
            </a>
            ,
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#close()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#close()">
             close
            </a>
            ,
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
             maybeRefresh
            </a>
            ,
-           <a href="../../../../org/apache/lucene/search/ReferenceManager.html#release(G)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#release(G)">
             release
            </a>
           </code>
@@ -722,12 +722,12 @@
           </h4>
           <pre>
            public SearcherManager(
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
             IndexWriter
            </a>
            writer,
                boolean applyAllDeletes,
-           <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
             SearcherFactory
            </a>
            searcherFactory)
@@ -738,7 +738,7 @@
           </pre>
           <div class="block">
            Creates and returns a new SearcherManager from the given
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
             <code>
              IndexWriter
             </code>
@@ -767,13 +767,13 @@
             </code>
             , all buffered deletes will
         be applied (made visible) in the
-            <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
              <code>
               IndexSearcher
              </code>
             </a>
             /
-            <a href="../../../../org/apache/lucene/index/IndexReader.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexReader.html" title="class in org.apache.lucene.index">
              <code>
               IndexReader
              </code>
@@ -792,7 +792,7 @@
             </code>
             .
         See
-            <a href="../../../../org/apache/lucene/index/IndexReader.html#openIfChanged(org.apache.lucene.index.IndexReader, org.apache.lucene.index.IndexWriter, boolean)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexReader.html#openIfChanged(org.apache.lucene.index.IndexReader, org.apache.lucene.index.IndexWriter, boolean)">
              <code>
               IndexReader.openIfChanged(IndexReader, IndexWriter, boolean)
              </code>
@@ -804,7 +804,7 @@
              searcherFactory
             </code>
             - An optional
-            <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
              <code>
               SearcherFactory
              </code>
@@ -841,11 +841,11 @@
           </h4>
           <pre>
            public SearcherManager(
-           <a href="../../../../org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
             Directory
            </a>
            dir,
-           <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
             SearcherFactory
            </a>
            searcherFactory)
@@ -856,7 +856,7 @@
           </pre>
           <div class="block">
            Creates and returns a new SearcherManager from the given
-           <a href="../../../../org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/store/Directory.html" title="class in org.apache.lucene.store">
             <code>
              Directory
             </code>
@@ -880,7 +880,7 @@
              searcherFactory
             </code>
             - An optional
-            <a href="../../../../org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherFactory.html" title="class in org.apache.lucene.search">
              <code>
               SearcherFactory
              </code>
@@ -928,7 +928,7 @@
           </h4>
           <pre>
            protected void decRef(
-           <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
             IndexSearcher
            </a>
            reference)
@@ -941,7 +941,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#decRef(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#decRef(G)">
               ReferenceManager
              </a>
             </code>
@@ -958,17 +958,17 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#decRef(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#decRef(G)">
               decRef
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
               ReferenceManager
              </a>
              <
-             <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
               IndexSearcher
              </a>
              >
@@ -999,11 +999,11 @@
           </h4>
           <pre>
            protected
-           <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
             IndexSearcher
            </a>
            refreshIfNeeded(
-           <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
             IndexSearcher
            </a>
            referenceToRefresh)
@@ -1016,7 +1016,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#refreshIfNeeded(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#refreshIfNeeded(G)">
               ReferenceManager
              </a>
             </code>
@@ -1038,17 +1038,17 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#refreshIfNeeded(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#refreshIfNeeded(G)">
               refreshIfNeeded
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
               ReferenceManager
              </a>
              <
-             <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
               IndexSearcher
              </a>
              >
@@ -1079,7 +1079,7 @@
           </h4>
           <pre>
            protected boolean tryIncRef(
-           <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
             IndexSearcher
            </a>
            reference)
@@ -1088,7 +1088,7 @@
            <strong>
             Description copied from class:
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#tryIncRef(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#tryIncRef(G)">
               ReferenceManager
              </a>
             </code>
@@ -1106,17 +1106,17 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html#tryIncRef(G)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#tryIncRef(G)">
               tryIncRef
              </a>
             </code>
             in class
             <code>
-             <a href="../../../../org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html" title="class in org.apache.lucene.search">
               ReferenceManager
              </a>
              <
-             <a href="../../../../org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/IndexSearcher.html" title="class in org.apache.lucene.search">
               IndexSearcher
              </a>
              >
@@ -1149,7 +1149,7 @@
            </span>
            <i>
             see
-            <a href="../../../../org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/ReferenceManager.html#maybeRefresh()">
              <code>
               ReferenceManager.maybeRefresh()
              </code>
@@ -1219,7 +1219,7 @@
             </span>
            </dt>
            <dd>
-            <a href="../../../../org/apache/lucene/index/IndexReader.html#isCurrent()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexReader.html#isCurrent()">
              <code>
               IndexReader.isCurrent()
              </code>
@@ -1247,7 +1247,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -1270,17 +1270,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -1289,14 +1289,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/search/SearcherLifetimeManager.Pruner.html" title="interface in org.apache.lucene.search">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/SearcherLifetimeManager.Pruner.html" title="interface in org.apache.lucene.search">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/search/Similarity.html" title="class in org.apache.lucene.search">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/search/Similarity.html" title="class in org.apache.lucene.search">
       <span class="strong">
        Next Class
       </span>
@@ -1305,7 +1305,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/search/SearcherManager.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/search/SearcherManager.html" target="_top">
       Frames
      </a>
     </li>
@@ -1317,7 +1317,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_bottom">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>

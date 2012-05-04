@@ -23,16 +23,27 @@ def getClassHierarchyLinks(page, key):
 
     return links
 
-def getRelatedText(page):
-    text = []
-    urlHandle = urllib2.urlopen(page)
-    soup = bs4.BeautifulSoup(urlHandle.read())
+def fixLinks(soup, page, tag):
+    for link in soup.find_all(tag):
+        linkString = link.get('href')
+        if None == linkString:
+            continue
+        mark = linkString.rfind('../')
+        if -1 == mark:
+            continue
+        link['href'] = page + linkString[mark+3:]
 
+def getRelatedText(page, link):
+    text = []
+    urlHandle = urllib2.urlopen(page + link)
+    soup = bs4.BeautifulSoup(urlHandle.read())
+    fixLinks(soup, page, 'a')
+    fixLinks(soup, page, 'link')
     return soup.prettify()
 
 def lemurTag(text,fileName):
-    tag = fileName
-    prefixTag = '<DOC>\n' + '<DOCNO> ' + tag + ' </DOCNO>'
+    tag = fileName.replace(' ','')
+    prefixTag = '<DOC>\n' + '<DOCNO> ' + tag + ' </DOCNO>\n'
     postfixTag = '</DOC>'
     print tag
     textTag = prefixTag + text + postfixTag
@@ -58,6 +69,6 @@ for page in parseDict.keys():
     links = getClassHierarchyLinks(page, parseDict[page])
 
     for link in links:
-        text = getRelatedText(page + link)
+        text = getRelatedText(page, link)
         path = os.path.join(destination,link.replace('/','_'))
         lemurWriteText(text, path)

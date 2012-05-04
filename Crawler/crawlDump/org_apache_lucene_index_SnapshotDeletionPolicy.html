@@ -10,7 +10,7 @@
    SnapshotDeletionPolicy (Lucene 3.6.0 API)
   </title>
   <meta content="2012-04-11" name="date" />
-  <link href="../../../../stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
+  <link href="http://lucene.apache.org/core/3_6_0/api/all/stylesheet.css" rel="stylesheet" title="Style" type="text/css" />
  </head>
  <body>
   <script type="text/javascript">
@@ -37,7 +37,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -60,17 +60,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -79,14 +79,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/index/SlowMultiReaderWrapper.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SlowMultiReaderWrapper.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Next Class
       </span>
@@ -95,7 +95,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/index/SnapshotDeletionPolicy.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/index/SnapshotDeletionPolicy.html" target="_top">
       Frames
      </a>
     </li>
@@ -107,7 +107,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_top">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>
@@ -214,7 +214,7 @@
         All Implemented Interfaces:
        </dt>
        <dd>
-        <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
          IndexDeletionPolicy
         </a>
        </dd>
@@ -224,7 +224,7 @@
         Direct Known Subclasses:
        </dt>
        <dd>
-        <a href="../../../../org/apache/lucene/index/PersistentSnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/PersistentSnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
          PersistentSnapshotDeletionPolicy
         </a>
        </dd>
@@ -241,26 +241,26 @@
         Object
        </a>
        implements
-       <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
         IndexDeletionPolicy
        </a>
       </pre>
       <div class="block">
        An
-       <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
         <code>
          IndexDeletionPolicy
         </code>
        </a>
        that wraps around any other
-       <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
         <code>
          IndexDeletionPolicy
         </code>
        </a>
        and adds the ability to hold and later release
  snapshots of an index. While a snapshot is held, the
-       <a href="../../../../org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html" title="class in org.apache.lucene.index">
         <code>
          IndexWriter
         </code>
@@ -268,14 +268,14 @@
        will
  not remove any files associated with it even if the index is otherwise being
  actively, arbitrarily changed. Because we wrap another arbitrary
-       <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
         <code>
          IndexDeletionPolicy
         </code>
        </a>
        , this gives you the freedom to continue using
  whatever
-       <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+       <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
         <code>
          IndexDeletionPolicy
         </code>
@@ -286,7 +286,7 @@
         This class maintains all snapshots in-memory, and so the information is not
  persisted and not protected against system failures. If persistency is
  important, you can use
-        <a href="../../../../org/apache/lucene/index/PersistentSnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/PersistentSnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
          <code>
           PersistentSnapshotDeletionPolicy
          </code>
@@ -294,7 +294,7 @@
         (or your own
  extension) and when creating a new instance of this deletion policy, pass the
  persistent snapshots information to
-        <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
+        <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
          <code>
           SnapshotDeletionPolicy(IndexDeletionPolicy, Map)
          </code>
@@ -351,7 +351,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
               SnapshotDeletionPolicy.SnapshotCommitPoint
              </a>
             </strong>
@@ -390,7 +390,7 @@
           <td class="colFirst">
            <code>
             protected
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
            </code>
@@ -398,7 +398,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#lastCommit">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#lastCommit">
               lastCommit
              </a>
             </strong>
@@ -434,12 +434,12 @@
           <td class="colOne">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy)">
               SnapshotDeletionPolicy
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
              IndexDeletionPolicy
             </a>
             primary)
@@ -450,12 +450,12 @@
           <td class="colOne">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
               SnapshotDeletionPolicy
              </a>
             </strong>
             (
-            <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
              IndexDeletionPolicy
             </a>
             primary,
@@ -473,13 +473,13 @@
             > snapshotsInfo)
            </code>
            <div class="block">
-            <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
              <code>
               SnapshotDeletionPolicy
              </code>
             </a>
             wraps another
-            <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
              <code>
               IndexDeletionPolicy
              </code>
@@ -526,7 +526,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#checkSnapshotted(java.lang.String)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#checkSnapshotted(java.lang.String)">
               checkSnapshotted
              </a>
             </strong>
@@ -550,7 +550,7 @@
          <tr class="rowColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
            </code>
@@ -558,7 +558,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshot(java.lang.String)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshot(java.lang.String)">
               getSnapshot
              </a>
             </strong>
@@ -593,7 +593,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshots()">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshots()">
               getSnapshots
              </a>
             </strong>
@@ -602,7 +602,7 @@
            <div class="block">
             Get all the snapshots in a map of snapshot IDs to the segments they
  'cover.' This can be passed to
-            <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
              <code>
               SnapshotDeletionPolicy(IndexDeletionPolicy, Map)
              </code>
@@ -621,7 +621,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#isSnapshotted(java.lang.String)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#isSnapshotted(java.lang.String)">
               isSnapshotted
              </a>
             </strong>
@@ -645,7 +645,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#onCommit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#onCommit(java.util.List)">
               onCommit
              </a>
             </strong>
@@ -654,7 +654,7 @@
              List
             </a>
             <? extends
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
             > commits)
@@ -673,7 +673,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#onInit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#onInit(java.util.List)">
               onInit
              </a>
             </strong>
@@ -682,7 +682,7 @@
              List
             </a>
             <? extends
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
             > commits)
@@ -703,7 +703,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#registerSnapshotInfo(java.lang.String, java.lang.String, org.apache.lucene.index.IndexCommit)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#registerSnapshotInfo(java.lang.String, java.lang.String, org.apache.lucene.index.IndexCommit)">
               registerSnapshotInfo
              </a>
             </strong>
@@ -716,7 +716,7 @@
              String
             </a>
             segment,
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
             commit)
@@ -735,7 +735,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
               release
              </a>
             </strong>
@@ -753,7 +753,7 @@
          <tr class="altColor">
           <td class="colFirst">
            <code>
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
            </code>
@@ -761,7 +761,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#snapshot(java.lang.String)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#snapshot(java.lang.String)">
               snapshot
              </a>
             </strong>
@@ -784,7 +784,7 @@
              List
             </a>
             <
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
             >
@@ -793,7 +793,7 @@
           <td class="colLast">
            <code>
             <strong>
-             <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#wrapCommits(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#wrapCommits(java.util.List)">
               wrapCommits
              </a>
             </strong>
@@ -802,7 +802,7 @@
              List
             </a>
             <? extends
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              IndexCommit
             </a>
             > commits)
@@ -895,7 +895,7 @@
           </h4>
           <pre>
            protected
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            lastCommit
@@ -923,7 +923,7 @@
           </h4>
           <pre>
            public SnapshotDeletionPolicy(
-           <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
             IndexDeletionPolicy
            </a>
            primary)
@@ -940,7 +940,7 @@
           </h4>
           <pre>
            public SnapshotDeletionPolicy(
-           <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
             IndexDeletionPolicy
            </a>
            primary,
@@ -958,13 +958,13 @@
            > snapshotsInfo)
           </pre>
           <div class="block">
-           <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html" title="class in org.apache.lucene.index">
             <code>
              SnapshotDeletionPolicy
             </code>
            </a>
            wraps another
-           <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
             <code>
              IndexDeletionPolicy
             </code>
@@ -983,7 +983,7 @@
              primary
             </code>
             - the
-            <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
              <code>
               IndexDeletionPolicy
              </code>
@@ -991,7 +991,7 @@
             that is used on non-snapshotted
           commits. Snapshotted commits, are not deleted until explicitly
           released via
-            <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
              <code>
               release(String)
              </code>
@@ -1003,7 +1003,7 @@
             </code>
             - A mapping of snapshot ID to the segments filename that is being
           snapshotted. The expected input would be the output of
-            <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshots()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#getSnapshots()">
              <code>
               getSnapshots()
              </code>
@@ -1069,7 +1069,7 @@
             String
            </a>
            segment,
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            commit)
@@ -1093,7 +1093,7 @@
             List
            </a>
            <
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            > wrapCommits(
@@ -1101,7 +1101,7 @@
             List
            </a>
            <? extends
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            > commits)
@@ -1118,7 +1118,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            getSnapshot(
@@ -1131,7 +1131,7 @@
            Get a snapshotted IndexCommit by ID. The IndexCommit can then be used to
  open an IndexReader on a specific commit point, or rollback the index by
  opening an IndexWriter with the IndexCommit specified in its
-           <a href="../../../../org/apache/lucene/index/IndexWriterConfig.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriterConfig.html" title="class in org.apache.lucene.index">
             <code>
              IndexWriterConfig
             </code>
@@ -1157,7 +1157,7 @@
            </dt>
            <dd>
             The
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               IndexCommit
              </code>
@@ -1206,7 +1206,7 @@
           <div class="block">
            Get all the snapshots in a map of snapshot IDs to the segments they
  'cover.' This can be passed to
-           <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#SnapshotDeletionPolicy(org.apache.lucene.index.IndexDeletionPolicy, java.util.Map)">
             <code>
              SnapshotDeletionPolicy(IndexDeletionPolicy, Map)
             </code>
@@ -1234,7 +1234,7 @@
           <div class="block">
            Returns true if the given ID is already used by a snapshot. You can call
  this method before
-           <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#snapshot(java.lang.String)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#snapshot(java.lang.String)">
             <code>
              snapshot(String)
             </code>
@@ -1258,7 +1258,7 @@
             List
            </a>
            <? extends
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            > commits)
@@ -1271,7 +1271,7 @@
            <strong>
             Description copied from interface:
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html#onCommit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html#onCommit(java.util.List)">
               IndexDeletionPolicy
              </a>
             </code>
@@ -1286,13 +1286,13 @@
            <p>
             The policy may now choose to delete old commit points 
  by calling method
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html#delete()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html#delete()">
              <code>
               delete()
              </code>
             </a>
             of
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               IndexCommit
              </code>
@@ -1301,20 +1301,20 @@
            </p>
            <p>
             This method is only called when
-            <a href="../../../../org/apache/lucene/index/IndexWriter.html#commit()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html#commit()">
              <code>
               IndexWriter.commit()
              </code>
             </a>
             or
-            <a href="../../../../org/apache/lucene/index/IndexWriter.html#close()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html#close()">
              <code>
               IndexWriter.close()
              </code>
             </a>
             is
  called, or possibly not at all if the
-            <a href="../../../../org/apache/lucene/index/IndexWriter.html#rollback()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html#rollback()">
              <code>
               IndexWriter.rollback()
              </code>
@@ -1339,13 +1339,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html#onCommit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html#onCommit(java.util.List)">
               onCommit
              </a>
             </code>
             in interface
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
               IndexDeletionPolicy
              </a>
             </code>
@@ -1360,7 +1360,7 @@
              commits
             </code>
             - List of
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               IndexCommit
              </code>
@@ -1397,7 +1397,7 @@
             List
            </a>
            <? extends
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            > commits)
@@ -1410,7 +1410,7 @@
            <strong>
             Description copied from interface:
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html#onInit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html#onInit(java.util.List)">
               IndexDeletionPolicy
              </a>
             </code>
@@ -1427,13 +1427,13 @@
  index directory and calls this method.  The policy may 
  choose to delete some of the commit points, doing so by
  calling method
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html#delete()">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html#delete()">
              <code>
               delete()
              </code>
             </a>
             of
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               IndexCommit
              </code>
@@ -1458,13 +1458,13 @@
            </dt>
            <dd>
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html#onInit(java.util.List)">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html#onInit(java.util.List)">
               onInit
              </a>
             </code>
             in interface
             <code>
-             <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+             <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
               IndexDeletionPolicy
              </a>
             </code>
@@ -1479,7 +1479,7 @@
              commits
             </code>
             - List of current
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               point-in-time commits
              </code>
@@ -1569,7 +1569,7 @@
           </h4>
           <pre>
            public
-           <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
             IndexCommit
            </a>
            snapshot(
@@ -1585,21 +1585,21 @@
           <div class="block">
            Snapshots the last commit. Once a commit is 'snapshotted,' it is protected
  from deletion (as long as this
-           <a href="../../../../org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexDeletionPolicy.html" title="interface in org.apache.lucene.index">
             <code>
              IndexDeletionPolicy
             </code>
            </a>
            is used). The
  commit can be removed by calling
-           <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.html#release(java.lang.String)">
             <code>
              release(String)
             </code>
            </a>
            using the same ID
  parameter followed by a call to
-           <a href="../../../../org/apache/lucene/index/IndexWriter.html#deleteUnusedFiles()">
+           <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexWriter.html#deleteUnusedFiles()">
             <code>
              IndexWriter.deleteUnusedFiles()
             </code>
@@ -1648,7 +1648,7 @@
            </dt>
            <dd>
             the
-            <a href="../../../../org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
+            <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/IndexCommit.html" title="class in org.apache.lucene.index">
              <code>
               IndexCommit
              </code>
@@ -1698,7 +1698,7 @@
    </a>
    <ul class="navList" title="Navigation">
     <li>
-     <a href="../../../../overview-summary.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/overview-summary.html">
       Overview
      </a>
     </li>
@@ -1721,17 +1721,17 @@
      </a>
     </li>
     <li>
-     <a href="../../../../deprecated-list.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/deprecated-list.html">
       Deprecated
      </a>
     </li>
     <li>
-     <a href="../../../../index-all.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index-all.html">
       Index
      </a>
     </li>
     <li>
-     <a href="../../../../help-doc.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/help-doc.html">
       Help
      </a>
     </li>
@@ -1740,14 +1740,14 @@
   <div class="subNav">
    <ul class="navList">
     <li>
-     <a href="../../../../org/apache/lucene/index/SlowMultiReaderWrapper.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SlowMultiReaderWrapper.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Prev Class
       </span>
      </a>
     </li>
     <li>
-     <a href="../../../../org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/org/apache/lucene/index/SnapshotDeletionPolicy.SnapshotCommitPoint.html" title="class in org.apache.lucene.index">
       <span class="strong">
        Next Class
       </span>
@@ -1756,7 +1756,7 @@
    </ul>
    <ul class="navList">
     <li>
-     <a href="../../../../index.html?org/apache/lucene/index/SnapshotDeletionPolicy.html" target="_top">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/index.html?org/apache/lucene/index/SnapshotDeletionPolicy.html" target="_top">
       Frames
      </a>
     </li>
@@ -1768,7 +1768,7 @@
    </ul>
    <ul class="navList" id="allclasses_navbar_bottom">
     <li>
-     <a href="../../../../allclasses-noframe.html">
+     <a href="http://lucene.apache.org/core/3_6_0/api/all/allclasses-noframe.html">
       All Classes
      </a>
     </li>
